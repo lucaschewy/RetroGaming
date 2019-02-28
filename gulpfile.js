@@ -6,8 +6,8 @@ var plugins = require('gulp-load-plugins')(); // tous les plugins de package.jso
 var browserSync = require('browser-sync').create();
 
 // Variables de chemins
-var source = './src'; // dossier de travail
-var destination = './dist'; // dossier à livrer
+var source = './app/src'; // dossier de travail
+var destination = './app/dist'; // dossier à livrer
 
 gulp.task('sass', function () {
     return gulp.src(source + '/assets/sass/style.scss')
@@ -51,6 +51,6 @@ gulp.task('default', ['build']);
         server: "./app"
     });
 
-    gulp.watch("src/assets/sass/*.scss", ['sass']);
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("./app/src/assets/sass/*.scss", ['sass']);
+    gulp.watch("./app/src/*.html").on('change', browserSync.reload);
 });
