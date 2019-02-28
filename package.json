@@ -1,0 +1,29 @@
+{
+  "name": "retrogaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaschewy/RetroGaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaschewy/RetroGaming/issues"
+  },
+  "homepage": "https://github.com/lucaschewy/RetroGaming#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cssbeautify": "^1.0.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "^3.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
