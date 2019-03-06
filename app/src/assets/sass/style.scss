@@ -1,3 +1,5 @@
+$white: #FFFFFF;
+
 body{
     margin: 0;
 }
@@ -8,4 +10,10 @@ body{
     background-image: url("../../../src/img/citysky.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .titre{
+        color: $white;
+    }
 }
