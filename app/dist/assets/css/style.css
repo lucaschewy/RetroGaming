@@ -4,15 +4,18 @@ body {
 
 .splash {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
+  color: #fff;
   background-image: url('../../../src/img/citysky.png');
   background-position: center;
   background-size: cover;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.splash .titre {
-  color: #fff;
+.splash .next {
+  font-size: 80px;
+  color: white;
 }

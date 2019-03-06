@@ -7,13 +7,20 @@ body{
 .splash{
     height: 100vh;
     width: 100%;
+    color: $white;
     background-image: url("../../../src/img/citysky.png");
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    .titre{
-        color: $white;
+    .next{
+        font-size: 80px;
+        color: white;
     }
+}
+
+.gameSlider{
+    
 }
