@@ -45,8 +45,74 @@ body {
   z-index: 999;
   width: 100px;
   height: 100px;
-  background-image: url('../../../src/img/donkey_dr.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-0 {
+  background-image: url('../../../src/img/donkey_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-1 {
+  background-image: url('../../../src/img/mario_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-2 {
+  background-image: url('../../../src/img/megaman_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-3 {
+  background-image: url('../../../src/img/sonic_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-4 {
+  background-image: url('../../../src/img/mario_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-5 {
+  background-image: url('../../../src/img/megaman_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-6 {
+  background-image: url('../../../src/img/sonic_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-7 {
+  background-image: url('../../../src/img/mario_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-8 {
+  background-image: url('../../../src/img/megaman_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-9 {
+  background-image: url('../../../src/img/sonic_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-10 {
+  background-image: url('../../../src/img/sonic_dr.png');
+}
+
+.games .bd-example #carouselExampleCaptions .select-prev {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+}
+
+.games .bd-example #carouselExampleCaptions .select-prev .fas {
+  font-size: 30px;
+  color: black;
+}
+
+.games .bd-example #carouselExampleCaptions .select-next {
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  bottom: 0;
+}
+
+.games .bd-example #carouselExampleCaptions .select-next .fas {
+  font-size: 30px;
+  color: black;
 }

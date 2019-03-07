@@ -51,11 +51,66 @@ body{
           .thumbnail{
             width: 100px;
             height: 100px;
-            background-image: url("../../../src/img/donkey_dr.png");
             background-size: 100%;
             background-position: center;
             background-repeat: no-repeat;
             z-index: 999;
+          }
+          .thumb{
+            &-0{
+              background-image: url("../../../src/img/donkey_dr.png");
+            }
+            &-1{
+              background-image: url("../../../src/img/mario_dr.png");
+            }
+            &-2{
+              background-image: url("../../../src/img/megaman_dr.png");
+            }
+            &-3{
+              background-image: url("../../../src/img/sonic_dr.png");
+            }
+            &-4{
+              background-image: url("../../../src/img/mario_dr.png");
+            }
+            &-5{
+              background-image: url("../../../src/img/megaman_dr.png");
+            }
+            &-6{
+              background-image: url("../../../src/img/sonic_dr.png");
+            }
+            &-7{
+              background-image: url("../../../src/img/mario_dr.png");
+            }
+            &-8{
+              background-image: url("../../../src/img/megaman_dr.png");
+            }
+            &-9{
+              background-image: url("../../../src/img/sonic_dr.png");
+            }
+            &-10{
+              background-image: url("../../../src/img/sonic_dr.png");
+            }
+          }
+        }
+      }
+      .select{
+        &-prev{
+          position: absolute;
+          z-index: 9999;
+          bottom: 0;
+          .fas{
+            font-size: 30px;
+            color: black;
+          }
+        }
+        &-next{
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          z-index: 9999;
+          .fas{
+            font-size: 30px;
+            color: black;
           }
         }
       }
