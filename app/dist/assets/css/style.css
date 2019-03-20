@@ -142,57 +142,66 @@ body {
   background-image: url('../../../src/img/cat.png');
 }
 
+.games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item img {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide {
   position: absolute;
   z-index: 9999999;
-  top: 30%;
+  top: 35%;
   display: flex;
   margin: 0 200px;
 }
 
+.games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .blanc {
+  color: #fff;
+}
+
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-0 {
-  width: 500px;
-  height: 307px;
+  width: 520px;
+  height: 250px;
   background-image: url('../../../src/img/sharingan.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-1 {
-  width: 490px;
-  height: 350px;
+  width: 470px;
+  height: 270px;
   background-image: url('../../../src/img/mars.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-2 {
-  width: 550px;
-  height: 330px;
+  width: 520px;
+  height: 250px;
   background-image: url('../../../src/img/ghost.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-3 {
-  width: 400px;
-  height: 400px;
+  width: 390px;
+  height: 320px;
   background-image: url('../../../src/img/fleur.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-4 {
-  width: 550px;
-  height: 330px;
+  width: 520px;
+  height: 250px;
   background-image: url('../../../src/img/fighter.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-5 {
-  width: 650px;
-  height: 300px;
+  width: 520px;
+  height: 230px;
   background-image: url('../../../src/img/grotte.png');
   background-position: center;
   background-size: cover;
@@ -200,15 +209,15 @@ body {
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-6 {
   width: 500px;
-  height: 400px;
+  height: 300px;
   background-image: url('../../../src/img/mana.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-7 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background-image: url('../../../src/img/ori.png');
   background-position: center;
   background-size: cover;
@@ -216,23 +225,23 @@ body {
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-8 {
   width: 500px;
-  height: 400px;
+  height: 300px;
   background-image: url('../../../src/img/macron.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-9 {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background-image: url('../../../src/img/zombie.png');
   background-position: center;
   background-size: cover;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .img-10 {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background-image: url('../../../src/img/cat.png');
   background-position: center;
   background-size: cover;
@@ -243,4 +252,9 @@ body {
   flex-direction: column;
   margin-left: 100px;
   justify-content: center;
+}
+
+.games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide .txt a {
+  font-size: 40px;
+  color: #f4d40c;
 }
