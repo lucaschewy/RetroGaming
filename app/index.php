@@ -212,3 +212,19 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<?php
+$game = "macron";
+// Connect to database
+$db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+
+// Reques to to database (get nb_vote)
+$q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+$q->bindParam(":game", $game);
+$q->execute();
+
+$data = $q->fetch(PDO::FETCH_ASSOC);
+
+echo $data["nb_votes"] . " Votes";
+
+?>
