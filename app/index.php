@@ -15,7 +15,7 @@
 <body>
   <section class="splash">
       <div class="header">
-          By B2 ESD Student
+          <img class="esd" src="src/img/esd.png" alt="">
       </div>
       <div class="titre">
          <div class="classement">
@@ -26,28 +26,31 @@
              Pain
            </div>
            <div class="jeux third">
-             Gabriel
+             Top Down
            </div>
            <div class="jeux">
-             les fleurs du mal
+             Les Fleurs du Mal
            </div>
            <div class="jeux">
-             school fighter
+             School Fighter
            </div>
            <div class="jeux">
-             tempest game
+             Tempest Game
            </div>
            <div class="jeux">
-             zombie rush
+             Zombie Rush
            </div>
            <div class="jeux">
-             macronie the game
+             Macronie the Game
            </div>
            <div class="jeux">
-             l'odysée des planètes
+             L'Odyssée des Planètes
            </div>
            <div class="jeux">
-             spellsign
+             Spellsign
+           </div>
+           <div class="jeux">
+             The Swapkat
            </div>
            <div class="jeux">
            the Swapkat
