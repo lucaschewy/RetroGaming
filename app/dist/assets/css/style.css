@@ -2,12 +2,6 @@ body {
   margin: 0;
 }
 
-img.esd {
-  height: 90px;
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
-
 .splash {
   display: flex;
   flex-direction: column;
@@ -55,27 +49,25 @@ img.esd {
   color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators .carousel-control-prev {
+.games .bd-example #carouselExampleCaptions .test .test1 {
+  display: flex;
+}
+
+.games .bd-example #carouselExampleCaptions .test .test1 .carousel-control-prev {
   font-size: 30px;
   position: absolute;
   z-index: 999;
-  left: -42px;
-  width: 40px;
   color: black;
-  background-color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators .carousel-control-next {
+.games .bd-example #carouselExampleCaptions .test .carousel-control-next {
   font-size: 30px;
   position: absolute;
-  z-index: 999;
-  right: -42px;
   width: 40px;
   color: black;
-  background-color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li {
   display: flex;
   width: 150px;
   height: 180px;
@@ -87,7 +79,7 @@ img.esd {
   align-items: center;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumbnail {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumbnail {
   z-index: 999;
   width: 100px;
   height: 100px;
@@ -96,47 +88,47 @@ img.esd {
   background-size: 100%;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-0 {
-  background-image: url('../../../src/img/donkey_dr.png');
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-0 {
+  background-image: url('../../../src/img/sharingan.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-1 {
-  background-image: url('../../../src/img/mario_dr.png');
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-1 {
+  background-image: url('../../../src/img/mars.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-2 {
-  background-image: url('../../../src/img/megaman_dr.png');
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-2 {
+  background-image: url('../../../src/img/ghost.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-3 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-3 {
+  background-image: url('../../../src/img/fleur.png');
+}
+
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-4 {
+  background-image: url('../../../src/img/fighter.png');
+}
+
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-5 {
+  background-image: url('../../../src/img/grotte.png');
+}
+
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-6 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-4 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-7 {
   background-image: url('../../../src/img/mario_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-5 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-8 {
   background-image: url('../../../src/img/megaman_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-6 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-9 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-7 {
-  background-image: url('../../../src/img/mario_dr.png');
-}
-
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-8 {
-  background-image: url('../../../src/img/megaman_dr.png');
-}
-
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-9 {
-  background-image: url('../../../src/img/sonic_dr.png');
-}
-
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-10 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-10 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 

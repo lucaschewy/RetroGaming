@@ -188,10 +188,11 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Zombie Rush</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
+                  Zombie Rush est un jeu d’action se voulant être un défouloir et un challenge réaliste.
+                  Le but du jeu étant de survivre le plus longtemps possible en affrontant des vagues
+                  d’ennemis sur une map fermée, parsemée de pièges et disposant de différents décors.</p>
                 </div>
               </div>
             </div>
