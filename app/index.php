@@ -18,7 +18,38 @@
           By B2 ESD Student
       </div>
       <div class="titre">
-          <img src="src/img/logo.png" alt="">
+         <div class="classement">
+           <div class="jeux">
+             Stargazing
+           </div>
+           <div class="jeux">
+             Pain
+           </div>
+           <div class="jeux">
+             Gabriel
+           </div>
+           <div class="jeux">
+             les fleurs du mal
+           </div>
+           <div class="jeux">
+             school fighter
+           </div>
+           <div class="jeux">
+             tempest game
+           </div>
+           <div class="jeux">
+             zombie rush
+           </div>
+           <div class="jeux">
+             macronie the game
+           </div>
+           <div class="jeux">
+             l'odysée des planètes
+           </div>
+           <div class="jeux">
+             spellsign
+           </div>
+         </div>
       </div>
       <div class="next">
           <a href=""><i class="fas fa-angle-down"></i></a>
@@ -28,14 +59,16 @@
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
@@ -86,7 +119,8 @@
                 <div class="txt">
                   <h1 class="titre">Pain</h1>
                   <p class="description">
-                  Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.</p>
+                    Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.
+                  </p>
                   <a href="">
                     <i class="fas fa-star"></i>
                   </a>
@@ -183,7 +217,6 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
@@ -213,6 +246,7 @@
                 </a>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

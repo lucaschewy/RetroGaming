@@ -39,26 +39,26 @@ body{
   .bd-example{
     #carouselExampleCaptions{
       .carousel-indicators{
-        .carousel-control{
-          &-prev{
-            position: absolute;
-            color: black;
-            left: -42px;
-            background-color: $white;
-            z-index: 999;
-            font-size: 30px;
-            width: 40px;
+          .carousel-control{
+            &-prev{
+              position: absolute;
+              color: black;
+              left: -42px;
+              background-color: $white;
+              z-index: 999;
+              font-size: 30px;
+              width: 40px;
+            }
+            &-next{
+              position: absolute;
+              color: black;
+              right: -42px;
+              background-color: $white;
+              z-index: 999;
+              font-size: 30px;
+              width: 40px;
+            }
           }
-          &-next{
-            position: absolute;
-            color: black;
-            right: -42px;
-            background-color: $white;
-            z-index: 999;
-            font-size: 30px;
-            width: 40px;
-          }
-        }
         li{
           height: 180px;
           width: 150px;
