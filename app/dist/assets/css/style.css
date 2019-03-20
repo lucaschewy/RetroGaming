@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+.splash .titre {
+  text-align: center;
+}
+
 .splash .next {
   font-size: 80px;
 }

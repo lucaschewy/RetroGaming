@@ -18,6 +18,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    .titre{
+      text-align: center;
+    }
     .next{
         font-size: 80px;
         a{

@@ -18,7 +18,7 @@
           By B2 ESD Student
       </div>
       <div class="titre">
-          
+          <img src="src/img/logo.png" alt="">
       </div>
       <div class="next">
           <a href=""><i class="fas fa-angle-down"></i></a>
