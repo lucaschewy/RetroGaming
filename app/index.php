@@ -18,7 +18,42 @@
           By B2 ESD Student
       </div>
       <div class="titre">
+<<<<<<< HEAD
           
+=======
+         <div class="classement">
+           <div class="jeux first">
+             Stargazing
+           </div>
+           <div class="jeux second">
+             Pain
+           </div>
+           <div class="jeux third">
+             Gabriel
+           </div>
+           <div class="jeux">
+             les fleurs du mal
+           </div>
+           <div class="jeux">
+             school fighter
+           </div>
+           <div class="jeux">
+             tempest game
+           </div>
+           <div class="jeux">
+             zombie rush
+           </div>
+           <div class="jeux">
+             macronie the game
+           </div>
+           <div class="jeux">
+             l'odysée des planètes
+           </div>
+           <div class="jeux">
+             spellsign
+           </div>
+         </div>
+>>>>>>> 89acf8fc43496cb13bfa665322dae94a9cd1860f
       </div>
       <div class="next">
           <a href=""><i class="fas fa-angle-down"></i></a>
@@ -28,14 +63,16 @@
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
@@ -90,12 +127,20 @@
                 <div class="txt">
                   <h1 class="titre">Top Down</h1>
                   <p class="description">
+<<<<<<< HEAD
                   Le but est de faire le meilleur score en finissant le jeu.
                   Le joueur commence dans une salle et peut se déplacer de salle en salle afin de
                   récupérer les 3 clés permettant d’ouvrir la porte finale du jeu et remporter la partie.
                   Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous
                   forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score
                   sera disponible en ligne afin d’apporter une compétition arcade.</p>
+=======
+                    Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.
+                  </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
+>>>>>>> 89acf8fc43496cb13bfa665322dae94a9cd1860f
                 </div>
              
             </div>
@@ -178,7 +223,6 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -211,6 +255,8 @@
       </div>
     </div>
   </section>
+  <!-- JS -->
+  <script src="src/assets/js/script.js"></script>
 
   <!-- BOOTSTRAP -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

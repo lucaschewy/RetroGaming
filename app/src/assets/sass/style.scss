@@ -20,6 +20,22 @@ body{
     align-items: center;
     .titre{
       text-align: center;
+      .classement{
+        background-color: black;
+        .jeux{
+          padding: 10px 30px;
+          border-top: 0.5px solid $white
+        }
+        .first{
+          background-color: #F4D40C;
+        }
+        .second{
+          background-color: #C7D9ED;
+        }
+        .third{
+          background-color: #D4532F;
+        }
+      }
     }
     .next{
         font-size: 80px;
@@ -39,26 +55,26 @@ body{
   .bd-example{
     #carouselExampleCaptions{
       .carousel-indicators{
-        .carousel-control{
-          &-prev{
-            position: absolute;
-            color: black;
-            left: -42px;
-            background-color: $white;
-            z-index: 999;
-            font-size: 30px;
-            width: 40px;
+          .carousel-control{
+            &-prev{
+              position: absolute;
+              color: black;
+              left: -42px;
+              background-color: $white;
+              z-index: 999;
+              font-size: 30px;
+              width: 40px;
+            }
+            &-next{
+              position: absolute;
+              color: black;
+              right: -42px;
+              background-color: $white;
+              z-index: 999;
+              font-size: 30px;
+              width: 40px;
+            }
           }
-          &-next{
-            position: absolute;
-            color: black;
-            right: -42px;
-            background-color: $white;
-            z-index: 999;
-            font-size: 30px;
-            width: 40px;
-          }
-        }
         li{
           height: 180px;
           width: 150px;
