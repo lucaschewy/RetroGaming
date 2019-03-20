@@ -58,29 +58,31 @@
   <section class="games">
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
-              <span class="sr-only">Next</span>
-            </a>
+        <div class="test">
+          <div class="test1">
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
           </div>
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"><div class="thumbnail thumb-3"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="4"><div class="thumbnail thumb-4"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="5"><div class="thumbnail thumb-5"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="6"><div class="thumbnail thumb-6"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="7"><div class="thumbnail thumb-7"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="8"><div class="thumbnail thumb-8"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="9"><div class="thumbnail thumb-9"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="10"><div class="thumbnail thumb-10"></div></li>
-        </ol>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"><div class="thumbnail thumb-3"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"><div class="thumbnail thumb-4"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="5"><div class="thumbnail thumb-5"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="6"><div class="thumbnail thumb-6"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="7"><div class="thumbnail thumb-7"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="8"><div class="thumbnail thumb-8"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="9"><div class="thumbnail thumb-9"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="10"><div class="thumbnail thumb-10"></div></li>
+          </ol>
+        </div> 
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="src/img/donkey_dr.jpg" class="d-block w-100" alt="...">

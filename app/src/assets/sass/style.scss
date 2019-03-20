@@ -54,78 +54,87 @@ body{
 .games{
   .bd-example{
     #carouselExampleCaptions{
-      .carousel-indicators{
+      .test{
+        .test1{
+          display: flex;
           .carousel-control{
             &-prev{
               position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 180px;
               color: black;
-              left: -42px;
-              background-color: $white;
-              z-index: 999;
-              font-size: 30px;
-              width: 40px;
-            }
-            &-next{
-              position: absolute;
-              color: black;
-              right: -42px;
               background-color: $white;
               z-index: 999;
               font-size: 30px;
               width: 40px;
             }
           }
-        li{
-          height: 180px;
-          width: 150px;
-          background-color: black;
-          padding: 0;
-          margin: 0;
-          border: none;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          .thumbnail{
-            width: 100px;
-            height: 100px;
-            background-size: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            z-index: 999;
+        }
+        .carousel-control{
+          &-next{
+            font-size: 30px;
+            color: black;
+            background-color: white;
+            height: 180px;
+            width: 40px;
+            position: absolute;
           }
-          .thumb{
-            &-0{
-              background-image: url("../../../src/img/donkey_dr.png");
+        }
+        .carousel-indicators{
+          li{
+            height: 180px;
+            width: 150px;
+            background-color: black;
+            padding: 0;
+            margin: 0;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .thumbnail{
+              width: 100px;
+              height: 100px;
+              background-size: 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              z-index: 999;
             }
-            &-1{
-              background-image: url("../../../src/img/mario_dr.png");
-            }
-            &-2{
-              background-image: url("../../../src/img/megaman_dr.png");
-            }
-            &-3{
-              background-image: url("../../../src/img/sonic_dr.png");
-            }
-            &-4{
-              background-image: url("../../../src/img/mario_dr.png");
-            }
-            &-5{
-              background-image: url("../../../src/img/megaman_dr.png");
-            }
-            &-6{
-              background-image: url("../../../src/img/sonic_dr.png");
-            }
-            &-7{
-              background-image: url("../../../src/img/mario_dr.png");
-            }
-            &-8{
-              background-image: url("../../../src/img/megaman_dr.png");
-            }
-            &-9{
-              background-image: url("../../../src/img/sonic_dr.png");
-            }
-            &-10{
-              background-image: url("../../../src/img/sonic_dr.png");
+            .thumb{
+              &-0{
+                background-image: url("../../../src/img/donkey_dr.png");
+              }
+              &-1{
+                background-image: url("../../../src/img/mario_dr.png");
+              }
+              &-2{
+                background-image: url("../../../src/img/megaman_dr.png");
+              }
+              &-3{
+                background-image: url("../../../src/img/sonic_dr.png");
+              }
+              &-4{
+                background-image: url("../../../src/img/mario_dr.png");
+              }
+              &-5{
+                background-image: url("../../../src/img/megaman_dr.png");
+              }
+              &-6{
+                background-image: url("../../../src/img/sonic_dr.png");
+              }
+              &-7{
+                background-image: url("../../../src/img/mario_dr.png");
+              }
+              &-8{
+                background-image: url("../../../src/img/megaman_dr.png");
+              }
+              &-9{
+                background-image: url("../../../src/img/sonic_dr.png");
+              }
+              &-10{
+                background-image: url("../../../src/img/sonic_dr.png");
+              }
             }
           }
         }

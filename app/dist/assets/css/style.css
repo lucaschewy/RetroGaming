@@ -49,27 +49,33 @@ body {
   color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators .carousel-control-prev {
+.games .bd-example #carouselExampleCaptions .test .test1 {
+  display: flex;
+}
+
+.games .bd-example #carouselExampleCaptions .test .test1 .carousel-control-prev {
   font-size: 30px;
   position: absolute;
   z-index: 999;
-  left: -42px;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 40px;
+  height: 180px;
   color: black;
   background-color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators .carousel-control-next {
+.games .bd-example #carouselExampleCaptions .test .carousel-control-next {
   font-size: 30px;
   position: absolute;
-  z-index: 999;
-  right: -42px;
   width: 40px;
+  height: 180px;
   color: black;
-  background-color: #fff;
+  background-color: white;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li {
   display: flex;
   width: 150px;
   height: 180px;
@@ -81,7 +87,7 @@ body {
   align-items: center;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumbnail {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumbnail {
   z-index: 999;
   width: 100px;
   height: 100px;
@@ -90,47 +96,47 @@ body {
   background-size: 100%;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-0 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-0 {
   background-image: url('../../../src/img/donkey_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-1 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-1 {
   background-image: url('../../../src/img/mario_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-2 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-2 {
   background-image: url('../../../src/img/megaman_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-3 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-3 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-4 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-4 {
   background-image: url('../../../src/img/mario_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-5 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-5 {
   background-image: url('../../../src/img/megaman_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-6 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-6 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-7 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-7 {
   background-image: url('../../../src/img/mario_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-8 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-8 {
   background-image: url('../../../src/img/megaman_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-9 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-9 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators li .thumb-10 {
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-10 {
   background-image: url('../../../src/img/sonic_dr.png');
 }
 
