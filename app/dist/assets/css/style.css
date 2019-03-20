@@ -28,10 +28,6 @@ body {
   color: #fff;
 }
 
-.games .bd-example #carouselExampleCaptions .carousel-indicators {
-  border: 5px solid red;
-}
-
 .games .bd-example #carouselExampleCaptions .carousel-indicators .carousel-control-prev {
   font-size: 30px;
   position: absolute;
@@ -39,7 +35,6 @@ body {
   left: -42px;
   width: 40px;
   color: black;
-  border: 5px solid red;
   background-color: #fff;
 }
 
@@ -50,14 +45,13 @@ body {
   right: -42px;
   width: 40px;
   color: black;
-  border: 5px solid red;
   background-color: #fff;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-indicators li {
   display: flex;
   width: 150px;
-  height: 230px;
+  height: 180px;
   margin: 0;
   padding: 0;
   border: none;
@@ -122,7 +116,7 @@ body {
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide {
   position: absolute;
   z-index: 9999999;
-  top: 50%;
+  top: 35%;
   display: flex;
   margin: 50px;
 }

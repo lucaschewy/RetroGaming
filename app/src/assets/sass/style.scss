@@ -39,7 +39,6 @@ body{
   .bd-example{
     #carouselExampleCaptions{
       .carousel-indicators{
-        border: 5px solid red;
         .carousel-control{
           &-prev{
             position: absolute;
@@ -49,11 +48,9 @@ body{
             z-index: 999;
             font-size: 30px;
             width: 40px;
-            border: 5px solid red;
           }
           &-next{
             position: absolute;
-            border: 5px solid red;
             color: black;
             right: -42px;
             background-color: $white;
@@ -63,7 +60,7 @@ body{
           }
         }
         li{
-          height: 230px;
+          height: 180px;
           width: 150px;
           background-color: black;
           padding: 0;
@@ -123,7 +120,7 @@ body{
             position: absolute;
             display: flex;
             z-index: 9999999;
-            top: 50%;
+            top: 35%;
             margin: 50px;
             .img{
               background-image: url("../../../src/img/game.jpg");
