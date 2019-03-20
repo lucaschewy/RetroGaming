@@ -245,7 +245,7 @@
               </div>
             </div>
           <div class="carousel-item">
-            <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/zombie.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-9"></div>
                 <div class="txt">
