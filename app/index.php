@@ -58,6 +58,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -70,6 +73,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -82,6 +88,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -94,6 +103,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -106,6 +118,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -118,6 +133,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -130,6 +148,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -142,6 +163,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -154,6 +178,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -166,6 +193,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -178,6 +208,9 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
