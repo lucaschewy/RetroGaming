@@ -15,12 +15,9 @@
 <body>
   <section class="splash">
       <div class="header">
-          By B2 ESD Student
+          <img class="esd" src="src/img/esd.png" alt="">
       </div>
       <div class="titre">
-<<<<<<< HEAD
-          
-=======
          <div class="classement">
            <div class="jeux first">
              Stargazing
@@ -29,31 +26,33 @@
              Pain
            </div>
            <div class="jeux third">
-             Gabriel
+             Top Down
            </div>
            <div class="jeux">
-             les fleurs du mal
+             Les Fleurs du Mal
            </div>
            <div class="jeux">
-             school fighter
+             School Fighter
            </div>
            <div class="jeux">
-             tempest game
+             Tempest Game
            </div>
            <div class="jeux">
-             zombie rush
+             Zombie Rush
            </div>
            <div class="jeux">
-             macronie the game
+             Macronie the Game
            </div>
            <div class="jeux">
-             l'odysée des planètes
+             L'Odyssée des Planètes
            </div>
            <div class="jeux">
-             spellsign
+             Spellsign
+           </div>
+           <div class="jeux">
+             The Swapkat
            </div>
          </div>
->>>>>>> 89acf8fc43496cb13bfa665322dae94a9cd1860f
       </div>
       <div class="next">
           <a href=""><i class="fas fa-angle-down"></i></a>
@@ -127,20 +126,12 @@
                 <div class="txt">
                   <h1 class="titre">Top Down</h1>
                   <p class="description">
-<<<<<<< HEAD
                   Le but est de faire le meilleur score en finissant le jeu.
                   Le joueur commence dans une salle et peut se déplacer de salle en salle afin de
                   récupérer les 3 clés permettant d’ouvrir la porte finale du jeu et remporter la partie.
                   Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous
                   forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score
                   sera disponible en ligne afin d’apporter une compétition arcade.</p>
-=======
-                    Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.
-                  </p>
-                  <a href="">
-                    <i class="fas fa-star"></i>
-                  </a>
->>>>>>> 89acf8fc43496cb13bfa665322dae94a9cd1860f
                 </div>
              
             </div>

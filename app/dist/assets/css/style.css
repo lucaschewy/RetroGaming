@@ -2,6 +2,16 @@ body {
   margin: 0;
 }
 
+.esd {
+  height: 90px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+i.fas.fa-angle-down{
+  margin-bottom: 20px;
+}
+
 .splash {
   display: flex;
   flex-direction: column;
