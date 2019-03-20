@@ -197,7 +197,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/magie.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-6"></div>
                 <div class="txt">
@@ -261,7 +261,7 @@
               </div>
             </div>
           <div class="carousel-item">
-            <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/chat.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-10"></div>
                 <div class="txt">
