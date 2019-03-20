@@ -55,14 +55,13 @@ body {
 
 .games .bd-example #carouselExampleCaptions .test .test1 .carousel-control-prev {
   font-size: 30px;
-  position: absolute;
   z-index: 999;
+  width: 40px;
   color: black;
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-control-next {
   font-size: 30px;
-  position: absolute;
   width: 40px;
   color: black;
 }
@@ -113,23 +112,23 @@ body {
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-6 {
-  background-image: url('../../../src/img/sonic_dr.png');
+  background-image: url('../../../src/img/mana.png');
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-7 {
-  background-image: url('../../../src/img/mario_dr.png');
+  background-image: url('../../../src/img/ori.png');
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-8 {
-  background-image: url('../../../src/img/megaman_dr.png');
+  background-image: url('../../../src/img/macron.png');
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-9 {
-  background-image: url('../../../src/img/sonic_dr.png');
+  background-image: url('../../../src/img/zombie.png');
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li .thumb-10 {
-  background-image: url('../../../src/img/sonic_dr.png');
+  background-image: url('../../../src/img/cat.png');
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .content-slide {
