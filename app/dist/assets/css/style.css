@@ -57,22 +57,14 @@ body {
   font-size: 30px;
   position: absolute;
   z-index: 999;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 40px;
-  height: 180px;
   color: black;
-  background-color: #fff;
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-control-next {
   font-size: 30px;
   position: absolute;
   width: 40px;
-  height: 180px;
   color: black;
-  background-color: white;
 }
 
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li {

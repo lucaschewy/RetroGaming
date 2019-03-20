@@ -137,7 +137,6 @@
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -149,7 +148,6 @@
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -166,7 +164,6 @@
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -185,7 +182,6 @@
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -198,7 +194,6 @@
             </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -211,7 +206,6 @@
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -224,7 +218,6 @@
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">

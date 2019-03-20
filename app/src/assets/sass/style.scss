@@ -60,15 +60,9 @@ body{
           .carousel-control{
             &-prev{
               position: absolute;
-              bottom: 0;
-              left: 0;
-              right: 0;
-              height: 180px;
               color: black;
-              background-color: $white;
               z-index: 999;
               font-size: 30px;
-              width: 40px;
             }
           }
         }
@@ -76,8 +70,6 @@ body{
           &-next{
             font-size: 30px;
             color: black;
-            background-color: white;
-            height: 180px;
             width: 40px;
             position: absolute;
           }
