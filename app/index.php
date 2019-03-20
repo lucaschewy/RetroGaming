@@ -61,29 +61,31 @@
   <section class="games">
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
-              <span class="sr-only">Next</span>
-            </a>
+        <div class="test">
+          <div class="test1">
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
           </div>
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"><div class="thumbnail thumb-3"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="4"><div class="thumbnail thumb-4"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="5"><div class="thumbnail thumb-5"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="6"><div class="thumbnail thumb-6"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="7"><div class="thumbnail thumb-7"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="8"><div class="thumbnail thumb-8"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="9"><div class="thumbnail thumb-9"></div></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="10"><div class="thumbnail thumb-10"></div></li>
-        </ol>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"><div class="thumbnail thumb-0"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"><div class="thumbnail thumb-1"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"><div class="thumbnail thumb-2"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"><div class="thumbnail thumb-3"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"><div class="thumbnail thumb-4"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="5"><div class="thumbnail thumb-5"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="6"><div class="thumbnail thumb-6"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="7"><div class="thumbnail thumb-7"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="8"><div class="thumbnail thumb-8"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="9"><div class="thumbnail thumb-9"></div></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="10"><div class="thumbnail thumb-10"></div></li>
+          </ol>
+        </div> 
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="src/img/pain.jpg" class="d-block w-100" alt="...">
@@ -117,10 +119,8 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
-            <img src="src/img/topdown.jpg" class="d-block w-100" alt="...">
-            
+            <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -132,26 +132,25 @@
                   Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous
                   forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score
                   sera disponible en ligne afin d’apporter une compétition arcade.</p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
-             
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
                   <h1 class="titre">Les Fleurs du Mal</h1>
                   <p class="description">
                   Vous incarnez une fleur bienveillante, évoluant au coeur d'un monde intriguant en espace fermé. Vous partirez à la découverte d'un seul et même niveau, ce dernier se déclinant sous différents thèmes et ambiances, plus immersives les une que les autres.</p>
-                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -163,13 +162,11 @@
                   des personnages aux multiples facettes.
                   A chaque fin de niveau, vous devrez battre différents boss, avant d'arriver finalement au boss final
                   qui détient votre diplôme.</p>
-                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -183,13 +180,11 @@
                   Le lendemain matin ne se passa pas comme prévu car il ne se trouva pas dans son lit au bureau mais
                   dans une grotte sombre et où il avait à la main un arc !
                   Il comprit alors qu’il n’était plus en Coréen mais dans le jeu qu’il avait développé !</p>
-                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -200,10 +195,8 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -216,7 +209,6 @@
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -227,10 +219,8 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
