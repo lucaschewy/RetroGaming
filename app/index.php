@@ -109,7 +109,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/cosmos.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
