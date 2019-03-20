@@ -136,17 +136,93 @@ body{
             position: absolute;
             display: flex;
             z-index: 9999999;
-            top: 35%;
-            margin: 50px;
+            top: 30%;
+            margin: 0px 200px;
             .img{
-              background-image: url("../../../src/img/game.jpg");
-              background-size: cover;
+              &-0{
+                background-image: url("../../../src/img/sharingan.png");
+                background-size: cover;
               background-position: center;
-              height: 100px;
-              width: 100px;
+              height:307px;
+              width: 500px;
+              }
+              &-1{
+                background-image: url("../../../src/img/mars.png");
+                background-size: cover;
+              background-position: center;
+              height:350px;
+              width: 490px;
+              }
+              &-2{
+                background-image: url("../../../src/img/ghost.png");
+                background-size: cover;
+              background-position: center;
+              height: 330px;
+              width: 550px;
+              }
+              &-3{
+                background-image: url("../../../src/img/fleur.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 400px;
+              }
+              &-4{
+                background-image: url("../../../src/img/fighter.png");
+                background-size: cover;
+              background-position: center;
+              height: 330px;
+              width: 550px;
+              }
+              &-5{
+                background-image: url("../../../src/img/grotte.png");
+                background-size: cover;
+              background-position: center;
+              height: 300px;
+              width: 650px;
+              }
+              &-6{
+                background-image: url("../../../src/img/mana.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 500px;
+              }
+              &-7{
+                background-image: url("../../../src/img/ori.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 400px;
+              }
+              &-8{
+                background-image: url("../../../src/img/macron.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 500px;
+              }
+              &-9{
+                background-image: url("../../../src/img/zombie.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 400px;
+              }
+              &-10{
+                background-image: url("../../../src/img/cat.png");
+                background-size: cover;
+              background-position: center;
+              height: 400px;
+              width: 400px;
+              }
             }
             .txt{
-              margin-left: 20px;
+              margin-left: 100px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+
             }
           }
         }

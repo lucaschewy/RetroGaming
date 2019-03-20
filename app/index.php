@@ -52,9 +52,6 @@
            <div class="jeux">
              The Swapkat
            </div>
-           <div class="jeux">
-           the Swapkat
-           </div>
          </div>
       </div>
       <div class="next">
@@ -93,7 +90,7 @@
           <div class="carousel-item active">
             <img src="src/img/pain.jpg" class="d-block w-100" alt="...">
             <div class="content-slide">
-              <div class="img"></div>
+              <div class="img-0"></div>
               <div class="txt">
                 <h1 class="titre">Pain</h1>
                 <p class="description">
@@ -111,7 +108,7 @@
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-1"></div>
                 <div class="txt">
                   <h1 class="titre">STARGAZING</h1>
                   <p class="description">
@@ -119,13 +116,16 @@
                   natale à été détruite,laissant ce dernier perdu dans le fin fond du cosmos, seul
                   avec son vaisseau. Le but est de parcourir les étoiles à travers l’espace afin de trouver une
                   planète habitable.</p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-2"></div>
                 <div class="txt">
                   <h1 class="titre">Top Down</h1>
                   <p class="description">
@@ -144,18 +144,21 @@
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-3"></div>
                 <div class="txt">
                   <h1 class="titre">Les Fleurs du Mal</h1>
                   <p class="description">
                   Vous incarnez une fleur bienveillante, évoluant au coeur d'un monde intriguant en espace fermé. Vous partirez à la découverte d'un seul et même niveau, ce dernier se déclinant sous différents thèmes et ambiances, plus immersives les une que les autres.</p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-4"></div>
                 <div class="txt">
                   <h1 class="titre">School Fighter</h1>
                   <p class="description">
@@ -165,13 +168,16 @@
                   des personnages aux multiples facettes.
                   A chaque fin de niveau, vous devrez battre différents boss, avant d'arriver finalement au boss final
                   qui détient votre diplôme.</p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-5"></div>
                 <div class="txt">
                   <h1 class="titre">Tempest Game</h1>
                   <p class="description">
@@ -183,13 +189,16 @@
                   Le lendemain matin ne se passa pas comme prévu car il ne se trouva pas dans son lit au bureau mais
                   dans une grotte sombre et où il avait à la main un arc !
                   Il comprit alors qu’il n’était plus en Coréen mais dans le jeu qu’il avait développé !</p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-6"></div>
                 <div class="txt">
                   <h1 class="titre">Spellsign</h1>
                   <p class="description">
@@ -199,54 +208,69 @@
                   monstres. Ayant perdu l'accès à la mana sur laquelle leur civilisation était fondée, les magiciens se
                   sont fait massacrer par les monstres.
                   </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-7"></div>
                 <div class="txt">
                   <h1 class="titre">L'odyssée des planètes</h1>
                   <p class="description">
                     Sauver et récupérer les pouvoirs des animaux pour nous aider à suivre la quête
                   </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-8"></div>
                 <div class="txt">
                   <h1 class="titre">Macronie the game</h1>
                   <p class="description">
                   Le joueur incarnera un jeune politicien ambitieux souhaitant entrer dans le gouvernement d’Emmanuel Macron, à un poste très haut placé. Ce dernier lui confie alors la mission, presque impossible, de régler dans un premier temps la crise des gilets jaunes s’il veut un poste. C’est ainsi que le joueur partira en croisade à travers la France pour mettre un terme à la révolte des gilets jaunes.
                   </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-9"></div>
                 <div class="txt">
                   <h1 class="titre">Zombie Rush</h1>
                   <p class="description">
                   Zombie Rush est un jeu d’action se voulant être un défouloir et un challenge réaliste. Le but du jeu étant de survivre le plus longtemps possible en affrontant des vagues d’ennemis sur une map fermée, parsemée de pièges et disposant de différents décors
                   </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
-                <div class="img"></div>
+                <div class="img-10"></div>
                 <div class="txt">
                   <h1 class="titre">The Swapkat</h1>
                   <p class="description">
                   L'objectif principal est d'atteindre un score assez élevé pour passer au niveau suivant. Selon le niveau, les exigences changent et sont indiquées sur l'écran.
                   </p>
+                  <a href="">
+                    <i class="fas fa-star"></i>
+                  </a>
                 </div>
               </div>
             </div>
