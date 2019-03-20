@@ -18,6 +18,7 @@
           <img class="esd" src="src/img/esd.png" alt="">
       </div>
       <div class="titre">
+        <div class="price"></div>
          <div class="classement">
            <div class="jeux first">
              Stargazing
