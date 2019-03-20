@@ -37,7 +37,28 @@ body{
     #carouselExampleCaptions{
       .carousel-indicators{
         border: 5px solid red;
-        overflow: hidden;
+        .carousel-control{
+          &-prev{
+            position: absolute;
+            color: black;
+            left: -42px;
+            background-color: $white;
+            z-index: 999;
+            font-size: 30px;
+            width: 40px;
+            border: 5px solid red;
+          }
+          &-next{
+            position: absolute;
+            border: 5px solid red;
+            color: black;
+            right: -42px;
+            background-color: $white;
+            z-index: 999;
+            font-size: 30px;
+            width: 40px;
+          }
+        }
         li{
           height: 230px;
           width: 150px;
@@ -93,24 +114,24 @@ body{
           }
         }
       }
-      .select{
-        &-prev{
-          position: absolute;
-          z-index: 9999;
-          bottom: 0;
-          .fas{
-            font-size: 30px;
-            color: black;
-          }
-        }
-        &-next{
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          z-index: 9999;
-          .fas{
-            font-size: 30px;
-            color: black;
+      .carousel-inner{
+        .carousel-item{
+          .content-slide{
+            position: absolute;
+            display: flex;
+            z-index: 9999999;
+            top: 50%;
+            margin: 50px;
+            .img{
+              background-image: url("../../../src/img/game.jpg");
+              background-size: cover;
+              background-position: center;
+              height: 100px;
+              width: 100px;
+            }
+            .txt{
+              margin-left: 20px;
+            }
           }
         }
       }
