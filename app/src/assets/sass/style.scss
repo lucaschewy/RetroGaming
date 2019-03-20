@@ -59,10 +59,10 @@ body{
           display: flex;
           .carousel-control{
             &-prev{
-              position: absolute;
               color: black;
               z-index: 999;
               font-size: 30px;
+              width: 40px;
             }
           }
         }
@@ -71,7 +71,6 @@ body{
             font-size: 30px;
             color: black;
             width: 40px;
-            position: absolute;
           }
         }
         .carousel-indicators{
@@ -113,19 +112,19 @@ body{
                 background-image: url("../../../src/img/grotte.png");
               }
               &-6{
-                background-image: url("../../../src/img/sonic_dr.png");
+                background-image: url("../../../src/img/mana.png");
               }
               &-7{
-                background-image: url("../../../src/img/mario_dr.png");
+                background-image: url("../../../src/img/ori.png");
               }
               &-8{
-                background-image: url("../../../src/img/megaman_dr.png");
+                background-image: url("../../../src/img/macron.png");
               }
               &-9{
-                background-image: url("../../../src/img/sonic_dr.png");
+                background-image: url("../../../src/img/zombie.png");
               }
               &-10{
-                background-image: url("../../../src/img/sonic_dr.png");
+                background-image: url("../../../src/img/cat.png");
               }
             }
           }

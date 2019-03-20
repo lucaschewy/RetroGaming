@@ -49,6 +49,9 @@
            <div class="jeux">
              spellsign
            </div>
+           <div class="jeux">
+           the Swapkat
+           </div>
          </div>
       </div>
       <div class="next">
@@ -185,9 +188,13 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Spellsign</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                  Un monde où la magie existe. Autrefois, les magiciens pouvaient extraire la mana brute de leur
+                  environnement, et la transformer en magie élémentaire pour réaliser d'incroyables sorts. Mais ils
+                  sont allés trop loin ; suite à une expérience ratée, la mana ambiante prend maintenant la forme de
+                  monstres. Ayant perdu l'accès à la mana sur laquelle leur civilisation était fondée, les magiciens se
+                  sont fait massacrer par les monstres.
                   </p>
                 </div>
               </div>
@@ -197,9 +204,9 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">L'odyssée des planètes</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                    Sauver et récupérer les pouvoirs des animaux pour nous aider à suivre la quête
                   </p>
                 </div>
               </div>
@@ -209,9 +216,9 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Macronie the game</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                  Le joueur incarnera un jeune politicien ambitieux souhaitant entrer dans le gouvernement d’Emmanuel Macron, à un poste très haut placé. Ce dernier lui confie alors la mission, presque impossible, de régler dans un premier temps la crise des gilets jaunes s’il veut un poste. C’est ainsi que le joueur partira en croisade à travers la France pour mettre un terme à la révolte des gilets jaunes.
                   </p>
                 </div>
               </div>
@@ -221,9 +228,21 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Zombie Rush</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                  Zombie Rush est un jeu d’action se voulant être un défouloir et un challenge réaliste. Le but du jeu étant de survivre le plus longtemps possible en affrontant des vagues d’ennemis sur une map fermée, parsemée de pièges et disposant de différents décors
+                  </p>
+                </div>
+              </div>
+            </div>
+          <div class="carousel-item">
+            <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+              <div class="content-slide">
+                <div class="img"></div>
+                <div class="txt">
+                  <h1 class="titre">The Swapkat</h1>
+                  <p class="description">
+                  L'objectif principal est d'atteindre un score assez élevé pour passer au niveau suivant. Selon le niveau, les exigences changent et sont indiquées sur l'écran.
                   </p>
                 </div>
               </div>
@@ -244,17 +263,17 @@
 </html>
 
 <?php
-$game = "macron";
+// $game = "macron";
 // Connect to database
-$db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+// $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
 
 // Reques to to database (get nb_vote)
-$q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-$q->bindParam(":game", $game);
-$q->execute();
+// $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+// $q->bindParam(":game", $game);
+// $q->execute();
 
-$data = $q->fetch(PDO::FETCH_ASSOC);
+// $data = $q->fetch(PDO::FETCH_ASSOC);
 
-echo $data["nb_votes"] . " Votes";
+// echo $data["nb_votes"] . " Votes";
 
 ?>
