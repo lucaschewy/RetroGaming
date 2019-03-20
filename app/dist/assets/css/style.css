@@ -20,6 +20,27 @@ body {
   text-align: center;
 }
 
+.splash .titre .classement {
+  background-color: black;
+}
+
+.splash .titre .classement .jeux {
+  padding: 10px 30px;
+  border-top: .5px solid #fff;
+}
+
+.splash .titre .classement .first {
+  background-color: #f4d40c;
+}
+
+.splash .titre .classement .second {
+  background-color: #c7d9ed;
+}
+
+.splash .titre .classement .third {
+  background-color: #d4532f;
+}
+
 .splash .next {
   font-size: 80px;
 }

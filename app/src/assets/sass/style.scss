@@ -20,6 +20,22 @@ body{
     align-items: center;
     .titre{
       text-align: center;
+      .classement{
+        background-color: black;
+        .jeux{
+          padding: 10px 30px;
+          border-top: 0.5px solid $white
+        }
+        .first{
+          background-color: #F4D40C;
+        }
+        .second{
+          background-color: #C7D9ED;
+        }
+        .third{
+          background-color: #D4532F;
+        }
+      }
     }
     .next{
         font-size: 80px;

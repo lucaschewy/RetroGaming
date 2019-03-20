@@ -19,13 +19,13 @@
       </div>
       <div class="titre">
          <div class="classement">
-           <div class="jeux">
+           <div class="jeux first">
              Stargazing
            </div>
-           <div class="jeux">
+           <div class="jeux second">
              Pain
            </div>
-           <div class="jeux">
+           <div class="jeux third">
              Gabriel
            </div>
            <div class="jeux">
