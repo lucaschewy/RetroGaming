@@ -85,13 +85,16 @@
         </div> 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="src/img/donkey_dr.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/pain.jpg" class="d-block w-100" alt="...">
             <div class="content-slide">
               <div class="img"></div>
               <div class="txt">
-                <h1 class="titre">Jeux 1</h1>
+                <h1 class="titre">Pain</h1>
                 <p class="description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé
+                dans de multiples guerres, toutes plus douleureuses les unes que les autres.
+                Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces
+                conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.</p>
                 </p>
                 <a href="">
                   <i class="fas fa-star"></i>
@@ -104,25 +107,28 @@
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Pain</h1>
+                  <h1 class="titre">STARGAZING</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                  STARGAZING est un platformer 2d en side scroll. Vous jouez un astronaute dont la planète
+                  natale à été détruite,laissant ce dernier perdu dans le fin fond du cosmos, seul
+                  avec son vaisseau. Le but est de parcourir les étoiles à travers l’espace afin de trouver une
+                  planète habitable.</p>
+                </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
-            <img src="src/img/pain.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Pain</h1>
+                  <h1 class="titre">Top Down</h1>
                   <p class="description">
-                    Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.
-                  </p>
+                  Le but est de faire le meilleur score en finissant le jeu.
+                  Le joueur commence dans une salle et peut se déplacer de salle en salle afin de
+                  récupérer les 3 clés permettant d’ouvrir la porte finale du jeu et remporter la partie.
+                  Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous
+                  forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score
+                  sera disponible en ligne afin d’apporter une compétition arcade.</p>
                   <a href="">
                     <i class="fas fa-star"></i>
                   </a>
@@ -130,67 +136,56 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
-              <div class="content-slide">
-                <div class="img"></div>
-                <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
-                  <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Les Fleurs du Mal</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                  Vous incarnez une fleur bienveillante, évoluant au coeur d'un monde intriguant en espace fermé. Vous partirez à la découverte d'un seul et même niveau, ce dernier se déclinant sous différents thèmes et ambiances, plus immersives les une que les autres.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">School Fighter</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                  Retrouvez vous dans l’esprit d’un étudiant de l’École Supérieur du Digitale. Votre but ultime est d’obtenir votre
+                  diplôme, mais, malheureusement pour vous, vous serez confronté à d'immenses obstacles.
+                  Vous allez devoir combattre vos démons (peur, doute, frustration), représentés allégoriquement par
+                  des personnages aux multiples facettes.
+                  A chaque fin de niveau, vous devrez battre différents boss, avant d'arriver finalement au boss final
+                  qui détient votre diplôme.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
-                  <h1 class="titre">Jeux 1</h1>
+                  <h1 class="titre">Tempest Game</h1>
                   <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
-                  </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                  Kakeo, jeune informaticien et concepteur de jeu, travail dans une entreprise coréenne depuis plus de 10 ans. Il
+                  était sur la création d’un jeu vidéo qu’il aime particulièrement, « Tempest Game » !
+                  Comme tous jeux avant sa sortie, il devait réaliser un dernier rush pour vérifier qu’il n’y ait pas de bugs.
+                  Il dormi donc comme à son habitude au travail pour pouvoir avoir le temps de le finir.
+                  Après de longues heures de travail, il partit enfin dormir !
+                  Le lendemain matin ne se passa pas comme prévu car il ne se trouva pas dans son lit au bureau mais
+                  dans une grotte sombre et où il avait à la main un arc !
+                  Il comprit alors qu’il n’était plus en Coréen mais dans le jeu qu’il avait développé !</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -198,14 +193,12 @@
                   <p class="description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -213,14 +206,12 @@
                   <p class="description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -228,14 +219,12 @@
                   <p class="description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                </div>
               </div>
             </div>
-          </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
                 <div class="txt">
@@ -243,9 +232,7 @@
                   <p class="description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
-                  <a href="">
-                  <i class="fas fa-star"></i>
-                </a>
+                </div>
               </div>
             </div>
           </div>
