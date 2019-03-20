@@ -10,6 +10,7 @@
     "gulp-csso": "latest",
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest",
-    "gulp-sass": "latest"
+    "gulp-sass": "latest",
+    "gulp-connect-php": "^1.0.3"
   }
 }

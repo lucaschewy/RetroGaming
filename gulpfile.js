@@ -45,12 +45,14 @@ gulp.task('default', ['build']);
 //     gulp.watch(source + '/assets/sass/*.scss', ['build']);
 //   });
 
-  gulp.task('serve', ['sass'], function() {
-
-    browserSync.init({
-        server: "./app"
-    });
-
-    gulp.watch("./app/src/assets/sass/*.scss", ['sass']);
-    gulp.watch("./app/src/*.html").on('change', browserSync.reload);
+gulp.task('serve', ['sass'], function() {
+  connect.server({ base: 'app', port: 8010}, function(){
+      browserSync.init({
+          proxy: '127.0.0.1:8010',
+          notify: false,
+          port: 8010
+      });
+  });
+  gulp.watch(source + "/assets/sass/*.scss", ['sass']);
+  gulp.watch("app/*.php").on('change', browserSync.reload);
 });
