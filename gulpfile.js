@@ -3,6 +3,7 @@ var gulp = require('gulp');
 
 // Include plugins
 var plugins = require('gulp-load-plugins')(); // tous les plugins de package.json
+var connect = new plugins.connectPhp();
 var browserSync = require('browser-sync').create();
 
 // Variables de chemins

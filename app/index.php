@@ -58,11 +58,15 @@
                 <p class="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                 </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -72,10 +76,23 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
+<<<<<<< HEAD
             <img src="src/img/pain.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
@@ -85,11 +102,25 @@
                   <p class="description">
                   Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.</p>
                 </div>
+=======
+            <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -99,11 +130,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -113,11 +157,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -127,11 +184,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -141,11 +211,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/mario_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -155,11 +238,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/megaman_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -169,11 +265,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -183,11 +292,24 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="src/img/sonic_dr.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
             <div class="carousel-caption d-none d-md-block">
               <div class="content-slide">
                 <div class="img"></div>
@@ -197,6 +319,18 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
                   </p>
                 </div>
+=======
+            <div class="content-slide">
+              <div class="img"></div>
+              <div class="txt">
+                <h1 class="titre">Jeux 1</h1>
+                <p class="description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolorum molestiae eaque. Officiis, beatae? Dolores atque adipisci iste quibusdam nobis, vel sint quisquam rem culpa itaque, officia, ullam aliquam delectus.
+                </p>
+                <a href="">
+                  <i class="fas fa-star"></i>
+                </a>
+>>>>>>> 6561a9d9a46822f190ee66c731d0e40ce8991acc
               </div>
             </div>
           </div>
