@@ -20,30 +20,49 @@ body{
     align-items: center;
     .titre{
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      .price{
-        background-image: url("../../../src/img/gold-medal.png");
-        background-size: cover;
-        margin: 10px;
-        height: 50px;
-        width: 50px;
+      justify-content: space-between;
+      width: 80%;
+      .team{
+        width: 30%;
       }
-      .classement{
-        background-color: black;
-        .jeux{
-          padding: 10px 30px;
-          border-top: 0.5px solid $white
+      .table{
+        width: 30%;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .price{
+          background-image: url("../../../src/img/gold-medal.png");
+          background-size: cover;
+          margin: 10px;
+          height: 50px;
+          width: 50px;
         }
-        .first{
-          background-color: #F4D40C;
+        .classement{
+          background-color: black;
+          .jeux{
+            padding: 10px 30px;
+            border-top: 0.5px solid $white
+          }
+          .first{
+            background-color: #F4D40C;
+          }
+          .second{
+            background-color: #C7D9ED;
+          }
+          .third{
+            background-color: #D4532F;
+          }
         }
-        .second{
-          background-color: #C7D9ED;
-        }
-        .third{
-          background-color: #D4532F;
+      }
+      .comm{
+        width: 30%;
+        .list{
+          .commentaires{
+            border-top: solid 2px $white;
+          }
         }
       }
     }

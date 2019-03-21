@@ -18,7 +18,11 @@
           <img class="esd" src="src/img/esd.png" alt="">
       </div>
       <div class="titre">
-        <div>
+        <div class="team">
+          <h2>La Team</h2>
+          <button>Voir Plus</button>
+        </div>
+        <div class="table">
           <div class="price"></div>
           <div class="classement">
             <div class="jeux first">
@@ -218,10 +222,24 @@
               The Swapkat
             </div>
           </div>
-          <div class="team">
-            <h2>La Team</h2>
-          </div>
         </div>
+        <div class="comm">
+            <h2>Commentaires</h2>
+            <div class="list">
+              <div class="commentaires">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam odit, perferendis eos cupiditate fugiat minima maxime laudantium blanditiis! Aliquid et voluptatibus minus porro cupiditate assumenda amet a, velit aliquam.</p>
+              </div>
+              <div class="commentaires">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit, repellendus minima in error quia hic placeat, dolor cupiditate impedit, sed nulla ut. Eius alias, quidem incidunt iure illum saepe!</p>
+              </div>
+              <div class="commentaires">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis fugiat nihil, sed doloribus recusandae pariatur voluptates magni voluptas sequi molestias perspiciatis dicta accusamus excepturi quibusdam cum, eius modi. Unde.</p>
+              </div>
+              <div class="commentaires">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam eum quae fuga alias deleniti praesentium harum ea nesciunt repellat molestiae dolorum voluptates cumque, id sunt ipsum eligendi explicabo quisquam nemo.</p>
+              </div>
+            </div>
+          </div>
       </div>
       <div class="next">
           <a><i class="fas fa-angle-down"></i></a>
