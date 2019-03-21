@@ -425,19 +425,19 @@
 </html>
 
 <?php
-  $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
- 
-  $selection="SELECT * FROM votes ORDER BY nb_vote DESC"; 
-  $requete=mysql_query($selection); 
-  $tableau=mysql_fetch_array($requete);
+  // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
 
-  $compteur = 1; 
-  while($tableau=mysql_fetch_array($requete)) 
-  { 
-  $game=$tableau['game'];  
-  $vote=$tableau['votes'];  
+  // $selection="SELECT * FROM votes ORDER BY nb_vote DESC"; 
+  // $requete=mysql_query($selection); 
+  // $tableau=mysql_fetch_array($requete);
 
-  echo "le jeux numéro $compteur est $game avec un nb_vote de $votes"; 
-  $compteur++; 
-  }
+  // $compteur = 1; 
+  // while($tableau=mysql_fetch_array($requete)) 
+  // {
+  // $game=$tableau['game'];  
+  // $vote=$tableau['votes'];  
+
+  // echo "le jeux numéro $compteur est $game avec un nb_vote de $votes"; 
+  // $compteur++; 
+  // }
 ?>
