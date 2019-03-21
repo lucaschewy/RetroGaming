@@ -26,200 +26,200 @@
           <div class="price"></div>
           <div class="classement">
             <div class="jeux first">
-            <?php
-                // $game = "stargazing";
+              Stargazing
+              <?php
+                $game = "stargazing";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
               ?>
-              Stargazing
             </div>
             <div class="jeux second">
-            <?php
-                // $game = "pain";
-                // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
-
-                // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
-
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                // echo $data["nb_votes"] . " Votes";
-              ?>
               Pain
+              <?php
+                  $game = "pain";
+                  // Connect to database
+                  $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+
+                  // Reques to to database (get nb_vote)
+                  $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                  $q->bindParam(":game", $game);
+                  $q->execute();
+
+                  $data = $q->fetch(PDO::FETCH_ASSOC);
+
+                  echo $data["nb_votes"] . " Votes";
+              ?>
             </div>
             <div class="jeux third">
-            <?php
-                // $game = "topDown";
-                // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
-
-                // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
-
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                // echo $data["nb_votes"] . " Votes";
-
-              ?>
               Top Down
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "fleur";
+              <?php
+                $game = "topDown";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               Les Fleurs du Mal
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "fight";
+              <?php
+                $game = "fleur";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               School Fighter
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "tempest";
+              <?php
+                $game = "fight";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               Tempest Game
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "zombie";
+              <?php
+                $game = "tempest";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               Zombie Rush
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "macron";
+              <?php
+                $game = "zombie";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               Macronie the Game
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "planète";
+              <?php
+                $game = "macron";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
               L'Odyssée des Planètes
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "spellsign";
-                // // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
-
-                // // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
-
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                // echo $data["nb_votes"] . " Votes";
-
-              ?>
-              Spellsign
-            </div>
-            <div class="jeux">
-            <?php
-                // $game = "cat";
+              <?php
+                $game = "planète";
                 // Connect to database
-                // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
 
                 // Reques to to database (get nb_vote)
-                // $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
-                // $q->bindParam(":game", $game);
-                // $q->execute();
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
 
-                // $data = $q->fetch(PDO::FETCH_ASSOC);
+                $data = $q->fetch(PDO::FETCH_ASSOC);
 
-                // echo $data["nb_votes"] . " Votes";
+                echo $data["nb_votes"] . " Votes";
 
               ?>
+            </div>
+            <div class="jeux">
+              Spellsign
+              <?php
+                $game = "spellsign";
+                // Connect to database
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+
+                // Reques to to database (get nb_vote)
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
+
+                $data = $q->fetch(PDO::FETCH_ASSOC);
+
+                echo $data["nb_votes"] . " Votes";
+
+              ?>
+            </div>
+            <div class="jeux">
               The Swapkat
+              <?php
+                $game = "cat";
+                // Connect to database
+                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+
+                // Reques to to database (get nb_vote)
+                $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
+                $q->bindParam(":game", $game);
+                $q->execute();
+
+                $data = $q->fetch(PDO::FETCH_ASSOC);
+
+                echo $data["nb_votes"] . " Votes";
+
+              ?>
             </div>
           </div>
         </div>
@@ -309,7 +309,7 @@
                   <h1 class="titre">Top Down</h1>
                   <p class="description">
                   Le but est de faire le meilleur score en finissant le jeu. Le joueur commence dans une salle et peut se déplacer de salle en salle afin de récupérer les 3 clés permettant d’ouvrir la porte finale du jeu et remporter la partie. Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score sera disponible en ligne afin d’apporter une compétition arcade.</p>
-                  <a href="">
+                  <a href="increase_vote.php?game=macron">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
