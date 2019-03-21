@@ -226,12 +226,10 @@
     <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="test">
-          <div class="test1">
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
             <span class="sr-only">Previous</span>
           </a>
-          </div>
           <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
             <span class="sr-only">Next</span>
