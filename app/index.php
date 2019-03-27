@@ -20,7 +20,7 @@
       <div class="titre">
         <div class="team">
           <h2>La Team</h2>
-          <button>Voir Plus</button>
+          <a href="team.html"> <input type="button" value="Voir plus"></a>
         </div>
         <div class="table">
           <div class="price"></div>
@@ -446,21 +446,3 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<?php
-  // $db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
-
-  // $selection="SELECT * FROM votes ORDER BY nb_vote DESC"; 
-  // $requete=mysql_query($selection); 
-  // $tableau=mysql_fetch_array($requete);
-
-  // $compteur = 1; 
-  // while($tableau=mysql_fetch_array($requete)) 
-  // {
-  // $game=$tableau['game'];  
-  // $vote=$tableau['votes'];  
-
-  // echo "le jeux numéro $compteur est $game avec un nb_vote de $votes"; 
-  // $compteur++; 
-  // }
-?>
