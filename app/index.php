@@ -30,7 +30,7 @@
               <?php
                 $game = "stargazing";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -47,7 +47,7 @@
               <?php
                   $game = "pain";
                   // Connect to database
-                  $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                  require 'connect.php';
 
                   // Reques to to database (get nb_vote)
                   $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -64,7 +64,7 @@
               <?php
                 $game = "topDown";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -82,7 +82,7 @@
               <?php
                 $game = "fleur";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -100,7 +100,7 @@
               <?php
                 $game = "fight";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -118,7 +118,7 @@
               <?php
                 $game = "tempest";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -136,7 +136,7 @@
               <?php
                 $game = "zombie";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -154,7 +154,7 @@
               <?php
                 $game = "macron";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -172,7 +172,7 @@
               <?php
                 $game = "planète";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -190,7 +190,7 @@
               <?php
                 $game = "spellsign";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -208,7 +208,7 @@
               <?php
                 $game = "cat";
                 // Connect to database
-                $db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+                require 'connect.php';
 
                 // Reques to to database (get nb_vote)
                 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
@@ -281,7 +281,7 @@
                 <p class="description">
                 Pain est un jeu permettant aux joueurs de s’immerger dans un monde apocalyptique plongé dans de multiples guerres, toutes plus douleureuses les unes que les autres. Le personnage principal de ce jeu, au fil de sa progression fera la connaissance de ces conflits, sera plongé dans la définition du desespoir et essaiera de surmonter cela.</p>
                 </p>
-                <a href="">
+                <a href="increase_vote.php?id=3">
                   <i class="fas fa-star"></i>
                 </a>
               </div>
@@ -295,7 +295,7 @@
                   <h1 class="titre">STARGAZING</h1>
                   <p class="description">
                   STARGAZING est un platformer 2d en side scroll. Vous jouez un astronaute dont la planète natale à été détruite,laissant ce dernier perdu dans le fin fond du cosmos, seul avec son vaisseau. Le but est de parcourir les étoiles à travers l’espace afin de trouver une planète habitable.</p>
-                  <a href="">
+                  <a href="increase_vote.php?id=2">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -309,7 +309,7 @@
                   <h1 class="titre">Top Down</h1>
                   <p class="description">
                   Le but est de faire le meilleur score en finissant le jeu. Le joueur commence dans une salle et peut se déplacer de salle en salle afin de récupérer les 3 clés permettant d’ouvrir la porte finale du jeu et remporter la partie. Les golds et le timer constituent le score. Des niveaux bonus seront dissimulés sous forme de jeu de plateforme contemplatif, ils n'impacteront pas le score. Le score sera disponible en ligne afin d’apporter une compétition arcade.</p>
-                  <a href="increase_vote.php?game=macron">
+                  <a href="increase_vote.php?id=4">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -323,7 +323,7 @@
                   <h1 class="titre">Les Fleurs du Mal</h1>
                   <p class="description">
                   Vous incarnez une fleur bienveillante, évoluant au coeur d'un monde intriguant en espace fermé. Vous partirez à la découverte d'un seul et même niveau, ce dernier se déclinant sous différents thèmes et ambiances, plus immersives les une que les autres.</p>
-                  <a href="">
+                  <a href="increase_vote.php?id=5">
                     <i class="fas fa-star"></i>
                   </a>
               </div>
@@ -337,7 +337,7 @@
                   <h1 class="titre">School Fighter</h1>
                   <p class="description">
                   Retrouvez vous dans l’esprit d’un étudiant de l’École Supérieur du Digitale. Votre but ultime est d’obtenir votre diplôme, mais, malheureusement pour vous, vous serez confronté à d'immenses obstacles. Vous allez devoir combattre vos démons (peur, doute, frustration), représentés allégoriquement par des personnages aux multiples facettes. A chaque fin de niveau, vous devrez battre différents boss, avant d'arriver finalement au boss final qui détient votre diplôme.</p>
-                  <a href="">
+                  <a href="increase_vote.php?id=6">
                     <i class="fas fa-star"></i>
                   </a>
               </div>
@@ -351,7 +351,7 @@
                   <h1 class="titre">Tempest Game</h1>
                   <p class="description">
                   Kakeo, jeune informaticien et concepteur de jeu, travail dans une entreprise coréenne depuis plus de 10 ans. Il était sur la création d’un jeu vidéo qu’il aime particulièrement, « Tempest Game » ! Comme tous jeux avant sa sortie, il devait réaliser un dernier rush pour vérifier qu’il n’y ait pas de bugs. Il dormi donc comme à son habitude au travail pour pouvoir avoir le temps de le finir. Après de longues heures de travail, il partit enfin dormir ! Le lendemain matin ne se passa pas comme prévu car il ne se trouva pas dans son lit au bureau mais dans une grotte sombre et où il avait à la main un arc ! Il comprit alors qu’il n’était plus en Coréen mais dans le jeu qu’il avait développé !</p>
-                  <a href="">
+                  <a href="increase_vote.php?id=7">
                     <i class="fas fa-star"></i>
                   </a>
               </div>
@@ -366,7 +366,7 @@
                   <p class="description">
                   Un monde où la magie existe. Autrefois, les magiciens pouvaient extraire la mana brute de leur environnement, et la transformer en magie élémentaire pour réaliser d'incroyables sorts. Mais ils sont allés trop loin ; suite à une expérience ratée, la mana ambiante prend maintenant la forme de monstres. Ayant perdu l'accès à la mana sur laquelle leur civilisation était fondée, les magiciens se sont fait massacrer par les monstres.
                   </p>
-                  <a href="">
+                  <a href="increase_vote.php?id=10">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -381,7 +381,7 @@
                   <p class="description">
                     Sauver et récupérer les pouvoirs des animaux pour nous aider à suivre la quête
                   </p>
-                  <a href="">
+                  <a href="increase_vote.php?id=9">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -396,7 +396,7 @@
                   <p class="description">
                   Le joueur incarnera un jeune politicien ambitieux souhaitant entrer dans le gouvernement d’Emmanuel Macron, à un poste très haut placé. Ce dernier lui confie alors la mission, presque impossible, de régler dans un premier temps la crise des gilets jaunes s’il veut un poste. C’est ainsi que le joueur partira en croisade à travers la France pour mettre un terme à la révolte des gilets jaunes.
                   </p>
-                  <a href="">
+                  <a href="increase_vote.php?id=1">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -411,7 +411,7 @@
                   <p class="description">
                   Zombie Rush est un jeu d’action se voulant être un défouloir et un challenge réaliste. Le but du jeu étant de survivre le plus longtemps possible en affrontant des vagues d’ennemis sur une map fermée, parsemée de pièges et disposant de différents décors
                   </p>
-                  <a href="">
+                  <a href="increase_vote.php?id=8">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>
@@ -426,7 +426,7 @@
                   <p class="description">
                   L'objectif principal est d'atteindre un score assez élevé pour passer au niveau suivant. Selon le niveau, les exigences changent et sont indiquées sur l'écran.
                   </p>
-                  <a href="">
+                  <a href="increase_vote.php?id=11">
                     <i class="fas fa-star"></i>
                   </a>
                 </div>

@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO('mysql:host=localhost;dbname=retro-game', 'root', 'root');
+require 'connect.php';
 
 $q = $db->query("SELECT * FROM votes");
 $q->execute();

@@ -1,6 +1,5 @@
 <?php
-// Connect to database
-$db = new PDO('mysql:host=localhost:8889;dbname=retro-game', 'root', 'root');
+require 'connect.php';
 
 // Reques to to database (get nb_vote)
 $q = $db->prepare("SELECT * FROM votes WHERE slug_game = :game");
