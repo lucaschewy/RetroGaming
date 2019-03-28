@@ -10,7 +10,6 @@ $nb_vote = $q->fetch(PDO::FETCH_ASSOC);
 
 if(isset($_COOKIE)){
     $message="Vous ne pouvez voter qu'une fois par jour";
-    echo '<script type="text/javascript">window.alert("'.$message.'");</script>';
 }else{
     $nb_votes = $nb_vote["nb_vote"] +1 ;
     $q = $db->prepare("UPDATE votes SET nb_vote= :nb_vote WHERE game = :game");
@@ -20,5 +19,7 @@ if(isset($_COOKIE)){
 
     setcookie('votes', 'true', time() + 24*3600);
 
-    header('Location: index.php');
+    $message = "success to add";
+
 }
+header("Location: index.php?message=${message}");

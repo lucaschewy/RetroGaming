@@ -21,6 +21,11 @@
         <div class="team">
           <h2>La Team</h2>
           <a href="team.html"> <input type="button" value="Voir plus"></a>
+          <?php 
+          if(isset($_GET)){
+            echo $_GET;
+          }
+          ?>
         </div>
         <div class="table">
           <div class="price"></div>
