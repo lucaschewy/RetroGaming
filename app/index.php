@@ -16,16 +16,20 @@
   <section class="splash">
       <div class="header">
           <img class="esd" src="src/img/esd.png" alt="">
+
+          <?php 
+          if(isset($_GET['message'])){
+          //   echo $_GET
+          $text = $_GET['message'];
+          echo "<script>alert(\" $text \")</script>";
+          }
+          ?>
+          
       </div>
       <div class="titre">
         <div class="team">
           <h2>La Team</h2>
           <a href="team.html"> <input type="button" value="Voir plus"></a>
-          <?php 
-          if(isset($_GET)){
-            echo $_GET;
-          }
-          ?>
         </div>
         <div class="table">
           <div class="price"></div>
