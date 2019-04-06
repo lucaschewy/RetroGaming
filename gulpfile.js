@@ -47,11 +47,11 @@ gulp.task('default', ['build']);
 //   });
 
 gulp.task('serve', ['sass'], function() {
-  connect.server({ base: 'app', port: 8010}, function(){
+  connect.server({ base: 'app', port: 8011}, function(){
       browserSync.init({
-          proxy: '127.0.0.1:8010',
+          proxy: '127.0.0.1:8011',
           notify: false,
-          port: 8010
+          port: 8011
       });
   });
   gulp.watch(source + "/assets/sass/*.scss", ['sass']);

@@ -266,3 +266,17 @@ body{
     }
   }
 }
+
+// Team
+
+.presentationB3{
+  background-image: url('../../../src/img/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .b3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

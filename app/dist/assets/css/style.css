@@ -276,3 +276,16 @@ body {
   font-size: 40px;
   color: #f4d40c;
 }
+
+.presentationB3 {
+  height: 100vh;
+  background-image: url('../../../src/img/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.presentationB3 .b3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
