@@ -14,245 +14,58 @@
 </head>
 <body>
   <section class="splash">
-      <div class="header">
-          <img class="esd" src="src/img/esd.png" alt="">
+    <div class="header">
+      <img class="esd" src="src/img/esd.png" alt="">
+      <?php 
+        if(isset($_GET['message'])){
+        $text = $_GET['message'];
+        echo "<script>alert(\" $text \")</script>";
+        }
+      ?>
+    </div>
+    <div class="titre">
+      <div class="team">
+        <h2>La Team</h2>
+        <a href="team.html"> <input type="button" value="Voir plus"></a>
+      </div>
+      <div class="table">
+        <div class="price"></div>
+        <div class="classement">
+          <?php
+            // Connect to database
+            require 'connect.php';
 
-          <?php 
-          if(isset($_GET['message'])){
-          //   echo $_GET
-          $text = $_GET['message'];
-          echo "<script>alert(\" $text \")</script>";
-          }
+            $q = $db->prepare("SELECT * FROM votes ORDER BY nb_vote DESC");
+            $q->bindParam(":game", $_GET["game"]);
+            $q->execute();
+
+            while($donnees = $q->fetch(PDO::FETCH_ASSOC)){           
+              echo '<div class="jeux">' . $donnees['game'] . ' ' . $donnees['nb_vote'] . '</div>';
+            }
           ?>
-          
-      </div>
-      <div class="titre">
-        <div class="team">
-          <h2>La Team</h2>
-          <a href="team.html"> <input type="button" value="Voir plus"></a>
         </div>
-        <div class="table">
-          <div class="price"></div>
-          <div class="classement">
-            <div class="jeux first">
-              Stargazing
-              <?php
-                $game = "stargazing";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-              ?>
-            </div>
-            <div class="jeux second">
-              Pain
-              <?php
-                  $game = "pain";
-                  // Connect to database
-                  require 'connect.php';
-
-                  // Reques to to database (get nb_vote)
-                  $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                  $q->bindParam(":game", $game);
-                  $q->execute();
-
-                  $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                  echo $data["nb_vote"] . " Votes";
-              ?>
-            </div>
-            <div class="jeux third">
-              Top Down
-              <?php
-                $game = "topDown";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              Les Fleurs du Mal
-              <?php
-                $game = "fleursDuMal";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              School Fighter
-              <?php
-                $game = "schoolFighter";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              Tempest Game
-              <?php
-                $game = "tempestGame";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              Zombie Rush
-              <?php
-                $game = "zombiRush";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              Macronie the Game
-              <?php
-                $game = "macron";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              L'Odyssée des Planètes
-              <?php
-                $game = "odysseePlanete";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              Spellsign
-              <?php
-                $game = "spellsign";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
-            <div class="jeux">
-              The Swapkat
-              <?php
-                $game = "swapkat";
-                // Connect to database
-                require 'connect.php';
-
-                // Reques to to database (get nb_vote)
-                $q = $db->prepare("SELECT * FROM votes WHERE game = :game");
-                $q->bindParam(":game", $game);
-                $q->execute();
-
-                $data = $q->fetch(PDO::FETCH_ASSOC);
-
-                echo $data["nb_vote"] . " Votes";
-
-              ?>
-            </div>
+      </div>
+      <div class="comm">
+        <h2>Commentaires</h2>
+        <div class="list">
+          <div class="commentaires">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam odit, perferendis eos cupiditate fugiat minima maxime laudantium blanditiis! Aliquid et voluptatibus minus porro cupiditate assumenda amet a, velit aliquam.</p>
+          </div>
+          <div class="commentaires">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit, repellendus minima in error quia hic placeat, dolor cupiditate impedit, sed nulla ut. Eius alias, quidem incidunt iure illum saepe!</p>
+          </div>
+          <div class="commentaires">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis fugiat nihil, sed doloribus recusandae pariatur voluptates magni voluptas sequi molestias perspiciatis dicta accusamus excepturi quibusdam cum, eius modi. Unde.</p>
+          </div>
+          <div class="commentaires">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam eum quae fuga alias deleniti praesentium harum ea nesciunt repellat molestiae dolorum voluptates cumque, id sunt ipsum eligendi explicabo quisquam nemo.</p>
           </div>
         </div>
-        <div class="comm">
-            <h2>Commentaires</h2>
-            <div class="list">
-              <div class="commentaires">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam odit, perferendis eos cupiditate fugiat minima maxime laudantium blanditiis! Aliquid et voluptatibus minus porro cupiditate assumenda amet a, velit aliquam.</p>
-              </div>
-              <div class="commentaires">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit, repellendus minima in error quia hic placeat, dolor cupiditate impedit, sed nulla ut. Eius alias, quidem incidunt iure illum saepe!</p>
-              </div>
-              <div class="commentaires">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis fugiat nihil, sed doloribus recusandae pariatur voluptates magni voluptas sequi molestias perspiciatis dicta accusamus excepturi quibusdam cum, eius modi. Unde.</p>
-              </div>
-              <div class="commentaires">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam eum quae fuga alias deleniti praesentium harum ea nesciunt repellat molestiae dolorum voluptates cumque, id sunt ipsum eligendi explicabo quisquam nemo.</p>
-              </div>
-            </div>
-          </div>
       </div>
-      <div class="next">
-          <a><i class="fas fa-angle-down"></i></a>
-      </div>
+    </div>    
+    <div class="next">
+        <a><i class="fas fa-angle-down"></i></a>
+    </div>
   </section>
   <section class="games">
     <div class="bd-example">
