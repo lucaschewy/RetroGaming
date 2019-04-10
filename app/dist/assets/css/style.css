@@ -53,15 +53,15 @@ body {
   border-top: .5px solid #fff;
 }
 
-.splash .titre .table .classement .first {
+.splash .titre .table .classement :nth-child(1) {
   background-color: #f4d40c;
 }
 
-.splash .titre .table .classement .second {
+.splash .titre .table .classement :nth-child(2) {
   background-color: #c7d9ed;
 }
 
-.splash .titre .table .classement .third {
+.splash .titre .table .classement :nth-child(3) {
   background-color: #d4532f;
 }
 

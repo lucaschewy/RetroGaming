@@ -46,13 +46,13 @@ body{
             padding: 10px 30px;
             border-top: 0.5px solid $white
           }
-          .first{
+          :nth-child(1){
             background-color: #F4D40C;
           }
-          .second{
+          :nth-child(2){
             background-color: #C7D9ED;
           }
-          .third{
+          :nth-child(3){
             background-color: #D4532F;
           }
         }

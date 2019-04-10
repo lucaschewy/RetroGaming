@@ -25,7 +25,7 @@
     </div>
     <div class="titre">
       <div class="team">
-        <h2>La Tea</h2>
+        <h2>La Team</h2>
         <a href="team.html"> <input type="button" value="Voir plus"></a>
       </div>
       <div class="table">
