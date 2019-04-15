@@ -15,95 +15,118 @@
 <body>
     <section class="presentationB3">
         <div class="header">
+            <img class="esd" src="src/img/esd.png" alt="">
             <a href="index.php"> <input type="button" value="Retour"></a>
         </div>
         <div class="b3">          
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-1"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Arthur Appercé</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/arthur-apperc%C3%A9-04798b133/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-2"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Aniss Belmouaz</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/anissbelmouaz/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-3"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Clara Sanchez</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/clara-sanchez/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-4"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Simon Mutelet</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/simon-mutelet/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-5"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Sebastian Petit</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/setpimus/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-6"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Nicolas Derit</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/nicolasderit/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-7"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Gabriel Bénit</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/gabriel-b%C3%A9nit-563672152/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-8"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Roxane Dulhoste</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/roxanedulhoste/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-9"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Thomas Bertaud</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/thomas-bertaud-60941b134/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-10"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Clara Pillaut</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/clara-pillault/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card-head">
+                    <div class="pdp-11"></div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Charlélie Bessonnet</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.linkedin.com/in/charlelie-bessonnet/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
         </div>

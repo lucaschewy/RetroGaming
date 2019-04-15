@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FACEBOOK OPEN GRAPH -->
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <!-- TITLE -->
     <title>RetroGaming</title>
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -13,10 +20,16 @@
     <link rel="stylesheet" href="dist/assets/css/style.css">
 </head>
 <body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2"></script>
   <section class="splash">
     <div class="header">
       <img class="esd" src="src/img/esd.png" alt="">
-      <?php 
+      <div class="team">
+        <a href="team.php">La Team</a>
+      </div>
+      <?php
         if(isset($_GET['message'])){
         $text = $_GET['message'];
         echo "<script>alert(\" $text \")</script>";
@@ -24,10 +37,6 @@
       ?>
     </div>
     <div class="titre">
-      <div class="team">
-        <h2>La Team</h2>
-        <a href="team.html"> <input type="button" value="Voir plus"></a>
-      </div>
       <div class="table">
         <div class="price"></div>
         <div class="classement">
@@ -45,7 +54,11 @@
           ?>
         </div>
       </div>
-    </div>    
+    </div>
+    <!-- Your share button code -->
+    <div class="fb-share-button" data-href="https://ecole-du-digital.com/" data-layout="button" data-size="large">
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fecole-du-digital.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a>
+    </div> 
     <div class="next">
         <a><i class="fas fa-angle-down"></i></a>
     </div>
@@ -78,6 +91,7 @@
         </div> 
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <div class="sombre"></div>
             <img src="src/img/apocalypse.jpg" class="d-block w-100" alt="...">
             <div class="content-slide">
               <div class="img-0"></div>
@@ -93,6 +107,7 @@
             </div>
           </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/nova.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-1"></div>
@@ -107,6 +122,7 @@
               </div>
             </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/house.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-2"></div>
@@ -121,6 +137,7 @@
             </div>
           </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/flower.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-3"></div>
@@ -136,6 +153,7 @@
           </div>
           <div class="carousel-item">
             <img src="src/img/fight.jpg" class="d-block w-100" alt="...">
+              <div class="sombre"></div>
               <div class="content-slide">
                 <div class="img-4"></div>
                 <div class="txt blanc">
@@ -149,6 +167,7 @@
             </div>
           </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/cavern.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-5"></div>
@@ -163,6 +182,7 @@
             </div>
           </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/magic.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-6"></div>
@@ -178,6 +198,7 @@
               </div>
             </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/chouette.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-7"></div>
@@ -193,6 +214,7 @@
               </div>
             </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/jaune.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-8"></div>
@@ -208,6 +230,7 @@
               </div>
             </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/zomb.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-9"></div>
@@ -223,6 +246,7 @@
               </div>
             </div>
           <div class="carousel-item">
+            <div class="sombre"></div>
             <img src="src/img/catcat.jpg" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-10"></div>
@@ -241,6 +265,14 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img class="esd" src="src/img/esd.png" alt="">
+        </div>
+        <div class="mentions">COPYRIGHT @ 2019 LUCAS CHEVALIER - Tout droits réservés</div>
+      </div>
+    </footer>
   </section>
   <!-- JS -->
   <script src="src/assets/js/script.js"></script>
