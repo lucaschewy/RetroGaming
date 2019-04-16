@@ -227,7 +227,7 @@
                 <div class="txt blanc">
                   <h1 class="titre">L'odyssée des planètes</h1>
                   <p class="description">
-                    Sauver et récupérer les pouvoirs des animaux pour nous aider à suivre la quête
+                    Sauver et récupérer les pouvoirs des animaux pour nous aide à suivre la quête
                   </p>
                   <a href="increase_vote.php?game=odysseePlanete">
                     <i class="fas fa-star"></i>
