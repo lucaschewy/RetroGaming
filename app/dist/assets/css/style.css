@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100vh;
   color: #fff;
-  background-image: url('../../../src/img/wallpaper.jpg');
+  background-image: url('../../../src/img/fonds.gif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -128,6 +128,10 @@ body {
   background-color: #fff;
 }
 
+.games .bd-example #carouselExampleCaptions .test .carousel-indicators {
+  z-index: 99999999;
+}
+
 .games .bd-example #carouselExampleCaptions .test .carousel-indicators li {
   display: flex;
   width: 150px;
@@ -193,12 +197,17 @@ body {
   background-image: url('../../../src/img/cat.png');
 }
 
+.games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item .sombre {
   position: absolute;
   z-index: 999;
   width: 100%;
   height: 100vh;
-  background-color: #140a0a7a;
+  background-color: #140a0ab2;
 }
 
 .games .bd-example #carouselExampleCaptions .carousel-inner .carousel-item img {
@@ -318,37 +327,49 @@ body {
   color: #f4d40c;
 }
 
-.presentationB3 {
-  background-image: url('../../../src/img/wallpaper.jpg');
+.presentation {
+  background-image: url('../../../src/img/fonds.gif');
   background-position: center;
   background-size: cover;
 }
 
-.presentationB3 .b3 {
+.presentation .intro {
   display: flex;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.b3 {
+  display: flex;
+  background-image: url('../../../src/img/star.gif');
+  background-position: center;
+  background-size: cover;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.presentationB3 .b3 .card {
+.b3 .card {
   margin: 20px;
 }
 
-.presentationB3 .b3 .card .card-head {
+.b3 .card .card-head {
   padding-top: 1.25rem;
 }
 
-.presentationB3 .b3 .card .card-head .pdp-1,
-.presentationB3 .b3 .card .card-head .pdp-2,
-.presentationB3 .b3 .card .card-head .pdp-3,
-.presentationB3 .b3 .card .card-head .pdp-4,
-.presentationB3 .b3 .card .card-head .pdp-5,
-.presentationB3 .b3 .card .card-head .pdp-6,
-.presentationB3 .b3 .card .card-head .pdp-7,
-.presentationB3 .b3 .card .card-head .pdp-8,
-.presentationB3 .b3 .card .card-head .pdp-9,
-.presentationB3 .b3 .card .card-head .pdp-10,
-.presentationB3 .b3 .card .card-head .pdp-11 {
+.b3 .card .card-head .pdp-1,
+.b3 .card .card-head .pdp-2,
+.b3 .card .card-head .pdp-3,
+.b3 .card .card-head .pdp-4,
+.b3 .card .card-head .pdp-5,
+.b3 .card .card-head .pdp-6,
+.b3 .card .card-head .pdp-7,
+.b3 .card .card-head .pdp-8,
+.b3 .card .card-head .pdp-9,
+.b3 .card .card-head .pdp-10,
+.b3 .card .card-head .pdp-11 {
   width: 100px;
   height: 100px;
   margin: auto;
@@ -358,43 +379,43 @@ body {
   background-size: cover;
 }
 
-.presentationB3 .b3 .card .card-head .pdp-2 {
+.b3 .card .card-head .pdp-2 {
   background-image: url('../../../src/img/1.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-3 {
+.b3 .card .card-head .pdp-3 {
   background-image: url('../../../src/img/2.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-4 {
+.b3 .card .card-head .pdp-4 {
   background-image: url('../../../src/img/3.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-5 {
+.b3 .card .card-head .pdp-5 {
   background-image: url('../../../src/img/4.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-6 {
+.b3 .card .card-head .pdp-6 {
   background-image: url('../../../src/img/5.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-7 {
+.b3 .card .card-head .pdp-7 {
   background-image: url('../../../src/img/6.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-8 {
+.b3 .card .card-head .pdp-8 {
   background-image: url('../../../src/img/7.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-9 {
+.b3 .card .card-head .pdp-9 {
   background-image: url('../../../src/img/8.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-10 {
+.b3 .card .card-head .pdp-10 {
   background-image: url('../../../src/img/9.jpeg');
 }
 
-.presentationB3 .b3 .card .card-head .pdp-11 {
+.b3 .card .card-head .pdp-11 {
   background-image: url('../../../src/img/10.jpeg');
 }
 

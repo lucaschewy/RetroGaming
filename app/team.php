@@ -13,16 +13,23 @@
     <link rel="stylesheet" href="dist/assets/css/style.css">
 </head>
 <body>
-    <section class="presentationB3">
-    <div class="header">
-      <div class="logo">
-        <img class="esd" src="src/img/esd.png" alt="">      
-      </div>
-      <div class="links">
-        <a href="index.php">Accueil</a>
-        <a href="team.php">La Team</a>
-      </div>
-    </div>
+    <section class="presentation">
+        <div class="header">
+        <div class="logo">
+            <img class="esd" src="src/img/esd.png" alt="">      
+        </div>
+        <div class="links">
+            <a href="index.php">Accueil</a>
+            <a href="team.php">La Team</a>
+        </div>
+        </div>
+    
+        <div class="intro">
+            <h1>LA TEAM B3 ESD BORDEAUX</h1>
+            <p>Les B3 de l'École Supérieure du Digital ont relevé le défis (ils n'ont pas eu le choix) de créer un jeux vidéos de l'idée jusque sur la plateforme. Voici donc une présentation de ses génies (ou pas)</p>
+            <img src="src/img/boss.gif" alt="">
+        </div>
+        </section>
         <div class="b3">          
             <div class="card" style="width: 18rem;">
                 <div class="card-head">
@@ -30,7 +37,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Arthur Appercé</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Un petit homme plein de style semblable à un hobbit remplis de capacités</p>
                     <a href="https://www.linkedin.com/in/arthur-apperc%C3%A9-04798b133/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -40,7 +47,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Aniss Belmouaz</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Un corps remplis d'humour que tout le monde conteste</p>
                     <a href="https://www.linkedin.com/in/anissbelmouaz/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -50,7 +57,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Clara Sanchez</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Une fraicheur d'âmes sans pareil</p>
                     <a href="https://www.linkedin.com/in/clara-sanchez/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -60,7 +67,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Simon Mutelet</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Des capacités, peut être</p>
                     <a href="https://www.linkedin.com/in/simon-mutelet/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -70,7 +77,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Sebastian Petit</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Un homme qui brille non pas grace à son crâne</p>
                     <a href="https://www.linkedin.com/in/setpimus/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -80,7 +87,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Nicolas Derit</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Adore les lignes de codes, peut être trop</p>
                     <a href="https://www.linkedin.com/in/nicolasderit/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -90,7 +97,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Gabriel Bénit</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Une chevelure divine et une classe sans pareil</p>
                     <a href="https://www.linkedin.com/in/gabriel-b%C3%A9nit-563672152/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -100,7 +107,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Roxane Dulhoste</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">La créativité et la folie incarnée</p>
                     <a href="https://www.linkedin.com/in/roxanedulhoste/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -110,7 +117,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Thomas Bertaud</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Sage et obscure tels est son credo</p>
                     <a href="https://www.linkedin.com/in/thomas-bertaud-60941b134/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -120,7 +127,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Clara Pillaut</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Aime les chats</p>
                     <a href="https://www.linkedin.com/in/clara-pillault/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -130,7 +137,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Charlélie Bessonnet</h5>
-                    <p class="card-text">test</p>
+                    <p class="card-text">Un léger accent qui en fait frémir plus d'une</p>
                     <a href="https://www.linkedin.com/in/charlelie-bessonnet/" class="btn btn-primary"><i class="fab fa-linkedin"></i> Profil</a>
                 </div>
             </div>
@@ -143,7 +150,6 @@
                 <div class="mentions">COPYRIGHT @ 2019 LUCAS CHEVALIER - Tout droits réservés</div>
             </div>
         </footer>
-    </section>
     
     <!-- JS -->
     <script src="src/assets/js/script.js"></script>

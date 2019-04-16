@@ -6,8 +6,8 @@ $pseudo = $_POST['pseudo'];
 $game = $_POST['choix'];
 $message = $_POST['message'];
 
-$req = $db->prepare('INSERT INTO commentaires(id, commentaire, pseudo, game) VALUES(:id, :commentaire, :pseudo, :game)');
-$req->execute(array(
+$q = $db->prepare('INSERT INTO commentaires(id, commentaire, pseudo, game) VALUES(:id, :commentaire, :pseudo, :game)');
+$q->execute(array(
     'id' => $id,
 	'commentaire' => $message,
 	'pseudo' => $pseudo,

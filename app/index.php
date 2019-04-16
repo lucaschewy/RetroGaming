@@ -114,7 +114,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="sombre"></div>
-            <img src="src/img/apocalypse.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/pain.gif" class="d-block w-100" alt="...">
             <div class="content-slide">
               <div class="img-0"></div>
               <div class="txt blanc">
@@ -125,12 +125,27 @@
                 <a href="increase_vote.php?game=pain">
                   <i class="fas fa-star"></i>
                 </a>
+                <div class="commentaires">
+                  <h4>Les commentaires</h4>
+                  <hr width="100%" color="white">
+                  <?php
+                  $q = $db->prepare("SELECT * FROM commentaires");
+                  $q->bindParam(":game", $_GET["game"]);
+                  $q->execute();
+      
+                  while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                      if($donnees['game'] == 'pain'){
+                        echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                      }
+                  }
+                  ?>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/nova.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/star.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-1"></div>
                 <div class="txt blanc">
@@ -140,12 +155,27 @@
                   <a href="increase_vote.php?game=stargazing">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'stargazing'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/house.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/fantom.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-2"></div>
                 <div class="txt blanc">
@@ -155,12 +185,27 @@
                   <a href="increase_vote.php?game=topDown">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'topDown'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/flower.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/fleurspluie.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-3"></div>
                 <div class="txt blanc">
@@ -170,12 +215,27 @@
                   <a href="increase_vote.php?game=fleursDuMal">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'fleursDuMal'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="src/img/fight.jpg" class="d-block w-100" alt="...">
-              <div class="sombre"></div>
+          <div class="sombre"></div>
+            <img src="src/img/combat.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-4"></div>
                 <div class="txt blanc">
@@ -185,12 +245,27 @@
                   <a href="increase_vote.php?game=schoolFighter">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'schoolFighter'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/cavern.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/tempest.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-5"></div>
                 <div class="txt blanc">
@@ -200,12 +275,27 @@
                   <a href="increase_vote.php?game=tempestGame">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'tempestGame'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/magic.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/spell.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-6"></div>
                 <div class="txt blanc">
@@ -216,28 +306,58 @@
                   <a href="increase_vote.php?game=spellsign">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'spellsign'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/chouette.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/planete.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-7"></div>
                 <div class="txt blanc">
                   <h1 class="titre">L'odyssée des planètes</h1>
                   <p class="description">
-                    Sauver et récupérer les pouvoirs des animaux pour nous aide à suivre la quête
+                    Sauver et récupérer les pouvoirs des animaux pour nous aider à suivre la quête
                   </p>
                   <a href="increase_vote.php?game=odysseePlanete">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'odysseePlanete'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/jaune.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/fr.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-8"></div>
                 <div class="txt blanc">
@@ -248,12 +368,27 @@
                   <a href="increase_vote.php?game=macron">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'macron'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/zomb.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/zomb.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-9"></div>
                 <div class="txt blanc">
@@ -264,12 +399,27 @@
                   <a href="increase_vote.php?game=zombiRush">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'zombiRush'){
+                          echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
           <div class="carousel-item">
             <div class="sombre"></div>
-            <img src="src/img/catcat.jpg" class="d-block w-100" alt="...">
+            <img src="src/img/catrain.gif" class="d-block w-100" alt="...">
               <div class="content-slide">
                 <div class="img-10"></div>
                 <div class="txt blanc">
@@ -280,6 +430,21 @@
                   <a href="increase_vote.php?game=swapkat">
                     <i class="fas fa-star"></i>
                   </a>
+                  <div class="commentaires">
+                    <h4>Les commentaires</h4>
+                    <hr width="100%" color="white">
+                    <?php
+                    $q = $db->prepare("SELECT * FROM commentaires");
+                    $q->bindParam(":game", $_GET["game"]);
+                    $q->execute();
+        
+                    while($donnees = $q->fetch(PDO::FETCH_ASSOC)){
+                        if($donnees['game'] == 'swapkat'){
+                            echo '<strong>' . $donnees['pseudo'] . ': ' . '</strong>' . $donnees['commentaire'];
+                        }
+                    }
+                    ?>
+                </div>
                 </div>
               </div>
             </div>
