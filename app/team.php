@@ -14,10 +14,15 @@
 </head>
 <body>
     <section class="presentationB3">
-        <div class="header">
-            <img class="esd" src="src/img/esd.png" alt="">
-            <a href="index.php"> <input type="button" value="Retour"></a>
-        </div>
+    <div class="header">
+      <div class="logo">
+        <img class="esd" src="src/img/esd.png" alt="">      
+      </div>
+      <div class="links">
+        <a href="index.php">Accueil</a>
+        <a href="team.php">La Team</a>
+      </div>
+    </div>
         <div class="b3">          
             <div class="card" style="width: 18rem;">
                 <div class="card-head">
@@ -130,8 +135,16 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="container">
+                <div class="logo">
+                <img class="esd" src="src/img/esd.png" alt="">
+                </div>
+                <div class="mentions">COPYRIGHT @ 2019 LUCAS CHEVALIER - Tout droits réservés</div>
+            </div>
+        </footer>
     </section>
-
+    
     <!-- JS -->
     <script src="src/assets/js/script.js"></script>
 

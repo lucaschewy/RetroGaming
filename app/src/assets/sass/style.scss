@@ -19,17 +19,6 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    .header{
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      .team{
-        a{
-          font-size: 30px;
-          color: $white;
-        }
-      }
-    }
     .titre{
       display: flex;
       justify-content: center;
@@ -45,6 +34,17 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center;
+        .message{
+          display: flex;
+          align-items: center;
+          color: rgb(167, 11, 11);
+          background-color: $white;
+          padding: 20px;
+          img{
+            width: 60px;
+            height: 60px;
+          }
+        }
         .price{
           background-image: url("../../../src/img/gold-medal.png");
           background-size: cover;
@@ -299,7 +299,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     .card{
-      margin-top: 50px;
+      margin: 20px;
       .card-head{
         padding-top: 1.25rem;
         .pdp{
@@ -361,7 +361,19 @@ body{
 // GLOBAL
 
 .header{
-
+  width: 100vw;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    width: 300px;
+  }
+  a{
+    font-size: 20px;
+    color: $white;
+    padding: 0 20px;
+  }
 }
 
 footer{
@@ -370,4 +382,8 @@ footer{
   color: $white;
   padding: 1.25rem;
   font-size: 12px;
+  img{
+    width: 150px;
+    padding: 1rem;
+  }
 }

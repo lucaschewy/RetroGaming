@@ -25,19 +25,22 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2"></script>
   <section class="splash">
     <div class="header">
-      <img class="esd" src="src/img/esd.png" alt="">
-      <div class="team">
+      <div class="logo">
+        <img class="esd" src="src/img/esd.png" alt="">      
+      </div>
+      <div class="links">
+        <a href="index.php">Accueil</a>
         <a href="team.php">La Team</a>
       </div>
-      <?php
-        if(isset($_GET['message'])){
-        $text = $_GET['message'];
-        echo "<script>alert(\" $text \")</script>";
-        }
-      ?>
     </div>
     <div class="titre">
       <div class="table">
+          <?php
+            if(isset($_GET['message'])){
+            $text = $_GET['message'];
+            echo "<div class='message'><img src='src/img/error.gif'>" . $text . '</div>';
+            }
+          ?>
         <div class="price"></div>
         <div class="classement">
           <?php
@@ -265,15 +268,16 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="logo">
-          <img class="esd" src="src/img/esd.png" alt="">
-        </div>
-        <div class="mentions">COPYRIGHT @ 2019 LUCAS CHEVALIER - Tout droits réservés</div>
-      </div>
-    </footer>
   </section>
+  <footer>
+    <div class="container">
+      <div class="logo">
+        <img class="esd" src="src/img/esd.png" alt="">
+      </div>
+      <div class="mentions">COPYRIGHT @ 2019 LUCAS CHEVALIER - Tout droits réservés</div>
+    </div>
+  </footer>
+
   <!-- JS -->
   <script src="src/assets/js/script.js"></script>
 

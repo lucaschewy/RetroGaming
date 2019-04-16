@@ -16,17 +16,6 @@ body {
   align-items: center;
 }
 
-.splash .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.splash .header .team a {
-  font-size: 30px;
-  color: #fff;
-}
-
 .splash .titre {
   display: flex;
   width: 80%;
@@ -45,6 +34,19 @@ body {
   color: #fff;
   justify-content: center;
   align-items: center;
+}
+
+.splash .titre .table .message {
+  display: flex;
+  padding: 20px;
+  color: #a70b0b;
+  background-color: #fff;
+  align-items: center;
+}
+
+.splash .titre .table .message img {
+  width: 60px;
+  height: 60px;
 }
 
 .splash .titre .table .price {
@@ -311,7 +313,7 @@ body {
 }
 
 .presentationB3 .b3 .card {
-  margin-top: 50px;
+  margin: 20px;
 }
 
 .presentationB3 .b3 .card .card-head {
@@ -378,10 +380,33 @@ body {
   background-image: url('../../../src/img/10.jpeg');
 }
 
+.header {
+  display: flex;
+  width: 100vw;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 300px;
+}
+
+.header a {
+  font-size: 20px;
+  padding: 0 20px;
+  color: #fff;
+}
+
 footer {
   font-size: 12px;
   padding: 1.25rem;
   text-align: center;
   color: #fff;
   background-color: #202124;
+}
+
+footer img {
+  width: 150px;
+  padding: 1rem;
 }
