@@ -57,6 +57,25 @@
           ?>
         </div>
       </div>
+      <form method="post" action="commentaires.php" class="formulaire">
+        <select name="choix">
+          <option value="">Jeux</option>
+          <option value="stargzing">Stargazing</option>
+          <option value="pain">Pain</option>
+          <option value="tempestGame">Tempest Game</option>
+          <option value="topDown">TopDown</option>
+          <option value="fleursDuMal">Fleurs du mal</option>
+          <option value="schoolFighter">School Fighter</option>
+          <option value="zombiRush">Zombirush</option>
+          <option value="macron">Macron</option>
+          <option value="odysseePlanete">odysseePlanete</option>
+          <option value="spellsign">Spellsign</option>
+          <option value="swapkat">Swapkat</option>
+        </select>
+        <input type="text" name="pseudo" value="pseudo"/>
+        <textarea name="message" value="message" rows="8" cols="45" placeholder="Votre message ici."></textarea>
+        <input type="submit">
+      </form>
     </div>
     <!-- Your share button code -->
     <div class="fb-share-button" data-href="https://ecole-du-digital.com/" data-layout="button" data-size="large">

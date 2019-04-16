@@ -26,6 +26,20 @@ body{
       .team{
         width: 30%;
       }
+      .formulaire{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        select{
+          margin: 10px;
+        }
+        textarea{
+          margin: 10px;
+        }
+        input{
+          margin: 10px;
+        }
+      }
       .table{
         width: 30%;
         color: $white;

@@ -26,6 +26,24 @@ body {
   width: 30%;
 }
 
+.splash .titre .formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.splash .titre .formulaire select {
+  margin: 10px;
+}
+
+.splash .titre .formulaire textarea {
+  margin: 10px;
+}
+
+.splash .titre .formulaire input {
+  margin: 10px;
+}
+
 .splash .titre .table {
   display: flex;
   flex-direction: column;
